@@ -26,7 +26,7 @@ def train_supernet():
                                   CONFIG_SUPERNET['dataloading']['path_to_save_data'])
 
     #### Model
-    model = SuperNet(CONFIG_LAYER, CONFIG_SUPERNET['cluster']['max_cluster_size'], cnt_classes=10).cuda()
+    model = SuperNet(CONFIG_LAYER, CONFIG_SUPERNET['cluster']['max_cluster_size'], cnt_classes=CONFIG_SUPERNET['train_settings']['cnt_classes']).cuda()
     model = model.apply(weights_init)
     model = nn.DataParallel(model, device_ids=[0])
 
@@ -54,40 +54,6 @@ def train_supernet():
     #### Training Loop
     trainer = TrainerSupernet(criterion, w_optimizer, theta_optimizer, w_scheduler)
     trainer.train_loop(train_w_loader, train_thetas_loader, test_loader, model)
-
-def sample_architecture_from_the_supernet():
-    test_loader = get_test_loader(CONFIG_SUPERNET['dataloading']['batch_size'],
-                                  CONFIG_SUPERNET['dataloading']['path_to_save_data'])
-    model = SuperNet(CONFIG_LAYER, CONFIG_SUPERNET['cluster']['max_cluster_size'], cnt_classes=10).cuda()
-    model = nn.DataParallel(model, device_ids=[0])
-
-    model.load_state_dict(torch.load(CONFIG_SUPERNET['train_settings']['path_to_save_model']))
-    module_list = []
-    module_list.append(model.module.first)
-    for layer in model.module.stages_to_search:
-        print(str(np.argmax(layer.thetas.detach().cpu().numpy())))
-        module_list.append(layer.ops[np.argmax(layer.thetas.detach().cpu().numpy())])
-    
-    module_list.append(model.module.last)
-
-    sampled_model = nn.Sequential(*module_list).cuda()
-
-    prec1_list = []
-    prec3_list = []
-
-    with torch.no_grad():
-        for step, (X, y) in enumerate(test_loader):
-            X, y = X.cuda(), y.cuda()
-            N = X.shape[0]
-
-            outs = model(X, 0 ,0)
-            prec1, prec3 = accuracy(outs, y, topk=(1, 5))
-            prec1_list.append(prec1)
-            prec3_list.append(prec3)
-
-    prec1_avg = sum(prec1_list) / len(prec1_list)
-    prec3_avg = sum(prec3_list) / len(prec3_list)
-
 
 
 if __name__ == "__main__":

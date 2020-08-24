@@ -5,7 +5,6 @@ import math
 from config import CONFIG_SUPERNET
 from utils import FileLogger
 
-
 def channel_shuffle(x, groups):
     batchsize, num_channels, height, width = x.data.size()
     channels_per_group = num_channels // groups
@@ -34,6 +33,7 @@ class ConvUnit(nn.Module):
         self.depth_conv = nn.Conv2d(int(out_planes/2), int(out_planes/2), kernel_size=3, stride=stride, bias=False, groups=int(out_planes/2))
         self.group_conv = nn.Conv2d(int(out_planes/2), out_planes, kernel_size=1, stride=stride, bias=False, groups=self.cluster)
         self.norm2 = nn.BatchNorm2d(out_planes)
+        self.flatten = Flatten()
 
     def forward(self, x):
 
