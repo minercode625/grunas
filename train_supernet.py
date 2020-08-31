@@ -1,11 +1,10 @@
 import torch
 from torch.autograd import Variable
 from utils import AverageMeter, accuracy
-from config import CONFIG_SUPERNET
 import time
 
 class TrainerSupernet:
-    def __init__(self, criterion, w_optimizer, theta_optimizer, w_scheduler):
+    def __init__(self, criterion, w_optimizer, theta_optimizer, w_scheduler, train_param):
         self.top1 = AverageMeter()
         self.top5 = AverageMeter()
         self.param = AverageMeter()
@@ -18,12 +17,11 @@ class TrainerSupernet:
         self.theta_optimizer = theta_optimizer
         self.w_scheduler = w_scheduler
 
-        self.temperature = CONFIG_SUPERNET['train_settings']['init_temperature']
-        self.exp_anneal_rate = CONFIG_SUPERNET['train_settings']['exp_anneal_rate']  # apply it every epoch
-        self.cnt_epochs = CONFIG_SUPERNET['train_settings']['cnt_epochs']
-        self.train_thetas_from_the_epoch = CONFIG_SUPERNET['train_settings']['train_thetas_from_the_epoch']
-        self.print_freq = CONFIG_SUPERNET['train_settings']['print_freq']
-        self.path_to_save_model = CONFIG_SUPERNET['train_settings']['path_to_save_model']
+        self.temperature = train_param['temperature']
+        self.exp_anneal_rate = train_param['exp_anneal_rate']  # apply it every epoch
+        self.cnt_epochs = train_param['cnt_epochs']
+        self.train_thetas_from_the_epoch = train_param['train_thetas_from_the_epoch']
+        self.path_to_save_model = train_param['path_to_save_model']
 
     def train_loop(self, train_w_loader, train_thetas_loader, test_loader, model):
         

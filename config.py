@@ -33,7 +33,6 @@ CONFIG_SUPERNET = {
     'train_settings' : {
         'cnt_epochs' : 200, # 90
         'train_thetas_from_the_epoch' : 20,
-        'print_freq' : 50,
         'path_to_save_model' : 'logs/cifar10/best_model.pth',
         # for Gumbel Softmax
         'init_temperature' : 5.0,

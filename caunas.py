@@ -2,7 +2,6 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 import math
-from config import CONFIG_SUPERNET
 from utils import FileLogger
 
 def channel_shuffle(x, groups):
@@ -113,7 +112,7 @@ class Flatten(nn.Module):
 
 
 class SuperNet(nn.Module):
-    def __init__(self, layer_table, max_cluster_size, cnt_classes=1000):
+    def __init__(self, layer_table, max_cluster_size, last_feature_size, cnt_classes=1000):
         super(SuperNet, self).__init__()
 
         self.first = FirstUnit(3, layer_table[0][0])
@@ -126,7 +125,7 @@ class SuperNet(nn.Module):
             max_cluster_size, layer_id)
             for layer_id in range(len(layer_table))])
 
-        self.last = LastUnit(layer_table[-1][1] * 2, CONFIG_SUPERNET['train_settings']['last_feature_size'], cnt_classes)
+        self.last = LastUnit(layer_table[-1][1] * 2, last_feature_size, cnt_classes)
         self.last_param = sum([p.numel() for p in self.last.parameters() if p.requires_grad])
 
     def forward(self, x, temperature, parameters_to_accumulate):
@@ -139,16 +138,15 @@ class SuperNet(nn.Module):
 
 
 class SupernetLoss(nn.Module):
-    def __init__(self):
+    def __init__(self, supernetloss_param):
         super(SupernetLoss, self).__init__()
-        self.alpha = CONFIG_SUPERNET['loss']['alpha']
-        self.beta = CONFIG_SUPERNET['loss']['beta']
-        self.gamma = CONFIG_SUPERNET['loss']['gamma']
+        self.alpha = supernetloss_param['alpha']
+        self.beta = supernetloss_param['beta']
 
         self.weight_criterion = nn.CrossEntropyLoss()
-        self.min_param_value = CONFIG_SUPERNET['loss']['min_param_value']
+        self.min_param_value = supernetloss_param['min_param_value']
         #self.max_param_size = torch.log(torch.tensor(CONFIG_SUPERNET['loss']['max_param_size'], dtype=torch.float32))
-        self.max_param_size = torch.tensor(CONFIG_SUPERNET['loss']['max_param_size'], dtype=torch.float32).cuda()
+        self.max_param_size = torch.tensor(supernetloss_param['max_param_size'], dtype=torch.float32).cuda()
     def forward(self, outs, targets, parameters):
         ce = self.weight_criterion(outs, targets)
         # parameters = torch.log(parameters)
