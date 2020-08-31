@@ -10,8 +10,9 @@ from tqdm import tqdm
 
 IMAGENET_MEAN = [0.485, 0.456, 0.406]
 IMAGENET_STD = [0.229, 0.224, 0.225]
-IMG_SIZE = 128
-CROP_SIZE = 112
+IMG_SIZE = int(256 / 4)
+CROP_SIZE = int(224 / 4)
+
 def get_loaders(train_portion, batch_size, path_to_save_data):
 
     label_file = open('train_labels.txt', mode="r")
@@ -27,23 +28,20 @@ def get_loaders(train_portion, batch_size, path_to_save_data):
         dir_str = label_txt[i].split()
         label_dict[dir_str[0]] = int(dir_str[1])
 
-    img_arr = []
-    label_arr = []
+    x = np.zeros((1300 * 1000, IMG_SIZE, IMG_SIZE, 3), dtype=np.float32)
+    y = np.zeros((1300 *1000, 1), dtype=np.float32)
+
     print("Training Data loading")
     for idx in tqdm(range(len(file_list))):
         item = file_list[idx]
         dir = 'ILSVRC2012_img_train/'+item
         img_list = os.listdir('ILSVRC2012_img_train/'+item)
-        img_sub = np.zeros((len(img_list), IMG_SIZE, IMG_SIZE, 3), dtype=np.float32)
-        #img_sub = np.zeros((20, IMG_SIZE, IMG_SIZE, 3), dtype=np.float32)
         for i, img_dir in enumerate(img_list):
             img = cv2.imread(dir + '/' + img_dir)
             img = cv2.resize(img, (IMG_SIZE, IMG_SIZE))
-            img_arr.append(img.tolist())
-            label_arr.append(label_dict[item])
-            
-    x = np.array(img_arr, dtype=np.float32)
-    y = np.array(label_arr, dtype=np.float32)
+            save_idx = 1300 * idx + i
+            x[save_idx, :, : , :] = img
+            y[save_idx, :] = label_dict[item]
 
     train_transform = transforms.Compose([
         transforms.CenterCrop(CROP_SIZE),
@@ -55,7 +53,8 @@ def get_loaders(train_portion, batch_size, path_to_save_data):
     train_data = ImagenetDataset(x, y, train_transform)
     
     num_train = len(train_data)  
-    indices = list(range(num_train))  
+    indices = np.arange(num_train)
+    np.random.shuffle(indices)
     split = int(np.floor(train_portion * num_train)) 
 
     train_idx, valid_idx = indices[:split], indices[split:]
@@ -86,8 +85,8 @@ def get_test_loader(batch_size, path_to_save_data):
 
     file_list = os.listdir('ILSVRC2012_img_val')
 
-    img_arr = []
-    label_arr = []
+    x = np.zeros((50000, IMG_SIZE, IMG_SIZE, 3), dtype=np.float32)
+    y = np.zeros((50000, 1), dtype=np.float32)
 
     print("Test Data loading")
 
@@ -98,12 +97,9 @@ def get_test_loader(batch_size, path_to_save_data):
         item_idx = int(item_idx.replace('.JPEG', ''))
         img = cv2.imread(dir)
         img = cv2.resize(img, (IMG_SIZE, IMG_SIZE))
-        img_arr.append(img.tolist())
-        label_arr.append(int(label_txt[item_idx - 1]))
+        x[idx, :, :, :] = img
+        y[idx, :] = float(label_txt[item_idx - 1])
         
-
-    x = np.array(img_arr, dtype=np.float32)
-    y = np.array(label_arr, dtype=np.float32)
 
     test_transform = transforms.Compose([
         transforms.CenterCrop(CROP_SIZE),

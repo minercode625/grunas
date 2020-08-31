@@ -19,9 +19,10 @@ def get_loaders(train_portion, batch_size, path_to_save_data):
     train_data = datasets.CIFAR10(root=path_to_save_data, train=True,
                                   download=True, transform=train_transform)
 
-    num_train = len(train_data)  # 50k
-    indices = list(range(num_train))  #
-    split = int(np.floor(train_portion * num_train))  # 40k
+    num_train = len(train_data)  
+    indices = np.arange(num_train)
+    np.random.shuffle(indices)
+    split = int(np.floor(train_portion * num_train))
 
     train_idx, valid_idx = indices[:split], indices[split:]
 

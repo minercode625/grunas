@@ -9,13 +9,14 @@ from utils import weights_init, check_tensor_in_list, FileLogger, accuracy
 from caunas import SuperNet, SupernetLoss
 from train_supernet import TrainerSupernet
 
+manual_seed = 1
+np.random.seed(manual_seed)
+torch.manual_seed(manual_seed)
+torch.cuda.manual_seed_all(manual_seed)
+torch.backends.cudnn.benchmark = True
 
 def train_supernet():
-    manual_seed = 1
-    np.random.seed(manual_seed)
-    torch.manual_seed(manual_seed)
-    torch.cuda.manual_seed_all(manual_seed)
-    torch.backends.cudnn.benchmark = True
+    
 
     #### DataLoading
 
