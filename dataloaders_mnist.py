@@ -14,7 +14,7 @@ def get_loaders(train_portion, batch_size, path_to_save_data):
         transforms.ToTensor(),
         transforms.Normalize(MNIST_MEAN, MNIST_STD),
     ])
-    train_data = datasets.mnist(root=path_to_save_data, train=True,
+    train_data = datasets.MNIST(root=path_to_save_data, train=True,
                                   download=True, transform=train_transform)
 
     num_train = len(train_data)  
@@ -46,7 +46,7 @@ def get_test_loader(batch_size, path_to_save_data):
         transforms.Normalize(MNIST_MEAN, MNIST_STD),
     ])
 
-    test_data = datasets.mnist(root=path_to_save_data, train=False,
+    test_data = datasets.MNIST(root=path_to_save_data, train=False,
                                  download=True, transform=test_transform)
     test_loader = torch.utils.data.DataLoader(test_data, batch_size=batch_size,
                                               shuffle=False, num_workers=16)

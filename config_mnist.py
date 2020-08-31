@@ -39,7 +39,7 @@ CONFIG_SUPERNET = {
         'exp_anneal_rate' : np.exp(-0.045),
         # first, last config
         'last_feature_size' : 256,
-        'first_inchannel' : 3,
+        'first_inchannel' : 1,
         'first_outchannel' : CONFIG_LAYER[0][0],
         'last_inchannel' : CONFIG_LAYER[-1][0],
         'cnt_classes' : 10

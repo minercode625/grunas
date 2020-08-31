@@ -112,20 +112,23 @@ class Flatten(nn.Module):
 
 
 class SuperNet(nn.Module):
-    def __init__(self, layer_table, max_cluster_size, last_feature_size, cnt_classes=1000):
+    def __init__(self, supernet_param):
         super(SuperNet, self).__init__()
+        
+        self.layer_table = supernet_param['config_layer']
+        self.max_cluster_size = supernet_param['max_cluster_size']
+        self.first_inchannel = supernet_param['first_inchannel']
+        self.last_feature_size = supernet_param['last_feature_size']
+        self.cnt_classes = supernet_param['cnt_classes']
+        self.first = FirstUnit(self.first_inchannel, self.layer_table[0][0])
 
-        self.first = FirstUnit(3, layer_table[0][0])
-
-        self.first = nn.Sequential(nn.Conv2d(in_channels=3, out_channels=24, kernel_size=3, stride=2, padding=3),
-                                   nn.BatchNorm2d(24), nn.ReLU())
         self.first_param = sum([p.numel() for p in self.first.parameters() if p.requires_grad])
         self.stages_to_search = nn.ModuleList([MixedOp(
-            layer_table[layer_id],
-            max_cluster_size, layer_id)
-            for layer_id in range(len(layer_table))])
+            self.layer_table[layer_id],
+            self.max_cluster_size, layer_id)
+            for layer_id in range(len(self.layer_table))])
 
-        self.last = LastUnit(layer_table[-1][1] * 2, last_feature_size, cnt_classes)
+        self.last = LastUnit(self.layer_table[-1][1] * 2, self.last_feature_size, self.cnt_classes)
         self.last_param = sum([p.numel() for p in self.last.parameters() if p.requires_grad])
 
     def forward(self, x, temperature, parameters_to_accumulate):

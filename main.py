@@ -12,7 +12,7 @@ torch.manual_seed(manual_seed)
 torch.cuda.manual_seed_all(manual_seed)
 torch.backends.cudnn.benchmark = True
 
-DATA = 'CIFAR10'
+DATA = 'MNIST'
 
 if DATA == 'CIFAR10':
     from config import CONFIG_SUPERNET, CONFIG_LAYER
@@ -35,12 +35,20 @@ def train_supernet():
                                   CONFIG_SUPERNET['dataloading']['path_to_save_data'])
 
     #### Model
-    model = SuperNet(CONFIG_LAYER, CONFIG_SUPERNET['cluster']['max_cluster_size'], CONFIG_SUPERNET['train_settings']['last_feature_size'], cnt_classes=CONFIG_SUPERNET['train_settings']['cnt_classes']).cuda()
+    supernet_param = {
+        'config_layer' : CONFIG_LAYER,
+        'max_cluster_size' : CONFIG_SUPERNET['cluster']['max_cluster_size'],
+        'first_inchannel' : CONFIG_SUPERNET['train_settings']['first_inchannel'],
+        'last_feature_size' : CONFIG_SUPERNET['train_settings']['last_feature_size'], 
+        'cnt_classes' : CONFIG_SUPERNET['train_settings']['cnt_classes']
+    }
+    model = SuperNet(supernet_param).cuda()
     model = model.apply(weights_init)
     model = nn.DataParallel(model, device_ids=[0])
 
     #### Loss, Optimizer and Scheduler
-    supernetloss_param = {'alpha' : CONFIG_SUPERNET['loss']['alpha'], 
+    supernetloss_param = {
+        'alpha' : CONFIG_SUPERNET['loss']['alpha'], 
         'beta' : CONFIG_SUPERNET['loss']['beta'], 
         'min_param_value' : CONFIG_SUPERNET['loss']['min_param_value'], 
         'max_param_size' : CONFIG_SUPERNET['loss']['max_param_size']
