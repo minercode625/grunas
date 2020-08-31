@@ -20,6 +20,9 @@ if DATA == 'CIFAR10':
 elif DATA == 'IMAGENET':
     from config_imagenet import CONFIG_LAYER, CONFIG_SUPERNET
     from dataloaders_imagenet import get_loaders, get_test_loader
+elif DATA == 'MNIST':
+    from config_mnist import CONFIG_LAYER, CONFIG_SUPERNET
+    from dataloaders_mnist import get_loaders, get_test_loader
 
 def train_supernet():
     
