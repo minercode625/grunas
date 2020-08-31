@@ -18,12 +18,15 @@ def train_supernet():
     torch.backends.cudnn.benchmark = True
 
     #### DataLoading
+
+    test_loader = get_test_loader(CONFIG_SUPERNET['dataloading']['batch_size'],
+                                  CONFIG_SUPERNET['dataloading']['path_to_save_data'])
+                                  
     train_w_loader, train_thetas_loader = get_loaders(CONFIG_SUPERNET['dataloading']['w_share_in_train'],
                                                       CONFIG_SUPERNET['dataloading']['batch_size'],
                                                       CONFIG_SUPERNET['dataloading']['path_to_save_data'],
                                                       )
-    test_loader = get_test_loader(CONFIG_SUPERNET['dataloading']['batch_size'],
-                                  CONFIG_SUPERNET['dataloading']['path_to_save_data'])
+    
 
     #### Model
     model = SuperNet(CONFIG_LAYER, CONFIG_SUPERNET['cluster']['max_cluster_size'], cnt_classes=CONFIG_SUPERNET['train_settings']['cnt_classes']).cuda()

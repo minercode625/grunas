@@ -88,4 +88,3 @@ class FileLogger:
             text.write('stage: {}, block1: {}, block2: {}, block3: {}, block4: {}\n'.format(stage, result[0], result[1], result[2], result[3]))
 
 
-
