@@ -73,7 +73,7 @@ class TrainerSupernet:
                 best_top1 = top1_avg
                 torch.save(model.state_dict(), self.path_to_save_model)
             self.temperature = self.temperature * self.exp_anneal_rate
-        print('Group Info: ' + model.get_max_group())
+            print('Group Info: ' + model.get_max_group())
         print('Time:',time.time() - start_time)
         print('Best Top1: ' + str(best_top1))
 

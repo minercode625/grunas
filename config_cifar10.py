@@ -34,10 +34,10 @@ CONFIG_SUPERNET = {
         'beta' : 0.8,
         'gamma' : 10,
         'min_param_value' : 0.001,
-        'max_param_size' : 10 ** 5
+        'max_param_size' : 10 ** 5.5
     },
     'train_settings' : {
-        'cnt_epochs' : 200, # 90
+        'cnt_epochs' : 100, # 90
         'train_thetas_from_the_epoch' : 20,
         'path_to_save_model' : 'logs/cifar10/best_model.pth',
         # for Gumbel Softmax

@@ -1,4 +1,3 @@
-import numpy as np
 import torch
 from torch import nn
 import sys
@@ -16,7 +15,7 @@ import torchvision.transforms as transforms
 import torchvision
 from pthflops import count_ops
 from utils import AverageMeter
-
+import numpy as np
 
 def sample_architecture_from_the_supernet(num_epoch=None):
     supernet_param = {
@@ -45,7 +44,7 @@ def sample_architecture_from_the_supernet(num_epoch=None):
     new_state_dict = OrderedDict()
 
     for k, v in state_dict.items():
-        name = k[7:]
+        name = k
         new_state_dict[name] = v
 
     model.load_state_dict(new_state_dict)
