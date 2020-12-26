@@ -1,0 +1,250 @@
+11/02 01:19:31 PM 3
+11/02 01:19:31 PM 0
+11/02 01:19:31 PM 0
+11/02 01:19:31 PM 1
+11/02 01:19:31 PM 1
+11/02 01:19:31 PM 2
+11/02 01:19:31 PM 1
+11/02 01:19:31 PM 3
+11/02 01:19:31 PM 3
+11/02 01:19:31 PM 3
+11/02 02:12:54 PM Best Top1 : 0.9035999178886414
+----------------------------------------------------------------
+        Layer (type)               Output Shape         Param #
+================================================================
+            Conv2d-1            [1, 12, 18, 18]             336
+       BatchNorm2d-2            [1, 12, 18, 18]              24
+              ReLU-3            [1, 12, 18, 18]               0
+         FirstUnit-4            [1, 12, 18, 18]               0
+            Conv2d-5             [1, 6, 18, 18]              72
+       BatchNorm2d-6             [1, 6, 18, 18]              12
+              ReLU-7             [1, 6, 18, 18]               0
+            Conv2d-8             [1, 6, 18, 18]              54
+            Conv2d-9             [1, 3, 18, 18]               3
+           Conv2d-10             [1, 3, 18, 18]               3
+           Conv2d-11             [1, 3, 18, 18]               3
+           Conv2d-12             [1, 3, 18, 18]               9
+        GroupConv-13            [1, 12, 18, 18]               0
+      BatchNorm2d-14            [1, 12, 18, 18]              24
+             ReLU-15            [1, 24, 18, 18]               0
+         ConvUnit-16            [1, 24, 18, 18]               0
+           Conv2d-17            [1, 12, 18, 18]             288
+      BatchNorm2d-18            [1, 12, 18, 18]              24
+             ReLU-19            [1, 12, 18, 18]               0
+           Conv2d-20            [1, 12, 18, 18]             108
+           Conv2d-21            [1, 24, 18, 18]             288
+        GroupConv-22            [1, 24, 18, 18]               0
+      BatchNorm2d-23            [1, 24, 18, 18]              48
+             ReLU-24            [1, 24, 18, 18]               0
+         ConvUnit-25            [1, 24, 18, 18]               0
+           Conv2d-26            [1, 12, 18, 18]             288
+      BatchNorm2d-27            [1, 12, 18, 18]              24
+             ReLU-28            [1, 12, 18, 18]               0
+           Conv2d-29            [1, 12, 18, 18]             108
+           Conv2d-30            [1, 24, 18, 18]             288
+        GroupConv-31            [1, 24, 18, 18]               0
+      BatchNorm2d-32            [1, 24, 18, 18]              48
+             ReLU-33            [1, 48, 18, 18]               0
+         ConvUnit-34            [1, 48, 18, 18]               0
+           Conv2d-35            [1, 24, 18, 18]           1,152
+      BatchNorm2d-36            [1, 24, 18, 18]              48
+             ReLU-37            [1, 24, 18, 18]               0
+           Conv2d-38            [1, 24, 18, 18]             216
+           Conv2d-39            [1, 24, 18, 18]             288
+           Conv2d-40            [1, 24, 18, 18]             288
+        GroupConv-41            [1, 48, 18, 18]               0
+      BatchNorm2d-42            [1, 48, 18, 18]              96
+             ReLU-43            [1, 48, 18, 18]               0
+         ConvUnit-44            [1, 48, 18, 18]               0
+           Conv2d-45            [1, 24, 18, 18]           1,152
+      BatchNorm2d-46            [1, 24, 18, 18]              48
+             ReLU-47            [1, 24, 18, 18]               0
+           Conv2d-48            [1, 24, 18, 18]             216
+           Conv2d-49            [1, 24, 18, 18]             288
+           Conv2d-50            [1, 24, 18, 18]             288
+        GroupConv-51            [1, 48, 18, 18]               0
+      BatchNorm2d-52            [1, 48, 18, 18]              96
+             ReLU-53            [1, 96, 18, 18]               0
+         ConvUnit-54            [1, 96, 18, 18]               0
+           Conv2d-55            [1, 48, 18, 18]           4,608
+      BatchNorm2d-56            [1, 48, 18, 18]              96
+             ReLU-57            [1, 48, 18, 18]               0
+           Conv2d-58            [1, 48, 18, 18]             432
+           Conv2d-59            [1, 32, 18, 18]             512
+           Conv2d-60            [1, 32, 18, 18]             512
+           Conv2d-61            [1, 32, 18, 18]             512
+        GroupConv-62            [1, 96, 18, 18]               0
+      BatchNorm2d-63            [1, 96, 18, 18]             192
+             ReLU-64            [1, 96, 18, 18]               0
+         ConvUnit-65            [1, 96, 18, 18]               0
+           Conv2d-66            [1, 48, 18, 18]           4,608
+      BatchNorm2d-67            [1, 48, 18, 18]              96
+             ReLU-68            [1, 48, 18, 18]               0
+           Conv2d-69            [1, 48, 18, 18]             432
+           Conv2d-70            [1, 48, 18, 18]           1,152
+           Conv2d-71            [1, 48, 18, 18]           1,152
+        GroupConv-72            [1, 96, 18, 18]               0
+      BatchNorm2d-73            [1, 96, 18, 18]             192
+             ReLU-74           [1, 192, 18, 18]               0
+         ConvUnit-75           [1, 192, 18, 18]               0
+           Conv2d-76            [1, 96, 18, 18]          18,432
+      BatchNorm2d-77            [1, 96, 18, 18]             192
+             ReLU-78            [1, 96, 18, 18]               0
+           Conv2d-79            [1, 96, 18, 18]             864
+           Conv2d-80            [1, 48, 18, 18]           1,152
+           Conv2d-81            [1, 48, 18, 18]           1,152
+           Conv2d-82            [1, 48, 18, 18]           1,152
+           Conv2d-83            [1, 48, 18, 18]           1,152
+        GroupConv-84           [1, 192, 18, 18]               0
+      BatchNorm2d-85           [1, 192, 18, 18]             384
+             ReLU-86           [1, 192, 18, 18]               0
+         ConvUnit-87           [1, 192, 18, 18]               0
+           Conv2d-88            [1, 96, 18, 18]          18,432
+      BatchNorm2d-89            [1, 96, 18, 18]             192
+             ReLU-90            [1, 96, 18, 18]               0
+           Conv2d-91            [1, 96, 18, 18]             864
+           Conv2d-92            [1, 48, 18, 18]           1,152
+           Conv2d-93            [1, 48, 18, 18]           1,152
+           Conv2d-94            [1, 48, 18, 18]           1,152
+           Conv2d-95            [1, 48, 18, 18]           1,152
+        GroupConv-96           [1, 192, 18, 18]               0
+      BatchNorm2d-97           [1, 192, 18, 18]             384
+             ReLU-98           [1, 384, 18, 18]               0
+         ConvUnit-99           [1, 384, 18, 18]               0
+          Conv2d-100           [1, 192, 18, 18]          73,728
+     BatchNorm2d-101           [1, 192, 18, 18]             384
+            ReLU-102           [1, 192, 18, 18]               0
+          Conv2d-103           [1, 192, 18, 18]           1,728
+          Conv2d-104            [1, 96, 18, 18]           4,608
+          Conv2d-105            [1, 96, 18, 18]           4,608
+          Conv2d-106            [1, 96, 18, 18]           4,608
+          Conv2d-107            [1, 96, 18, 18]           4,608
+       GroupConv-108           [1, 384, 18, 18]               0
+     BatchNorm2d-109           [1, 384, 18, 18]             768
+            ReLU-110           [1, 384, 18, 18]               0
+        ConvUnit-111           [1, 384, 18, 18]               0
+         Flatten-112                   [1, 384]               0
+          Linear-113                    [1, 10]           3,850
+        LastUnit-114                    [1, 10]               0
+================================================================
+Total params: 168,574
+Trainable params: 168,574
+Non-trainable params: 0
+----------------------------------------------------------------
+Input size (MB): 0.01
+Forward/backward pass size (MB): 21.27
+Params size (MB): 0.64
+Estimated Total Size (MB): 21.93
+----------------------------------------------------------------
+Count Operations in random tensor
+/home/cal-06/Desktop/test/caunas.py:169: TracerWarning: torch.tensor results are registered as constants in the trace. You can safely ignore this warning if you use this function to create tensors out of constant variables that would be the same every time you call this function. In any other case, this might cause the trace to be incorrect.
+  shape = torch.prod(torch.tensor(x.shape[1:])).item()
+/home/cal-06/Desktop/test/caunas.py:169: TracerWarning: Converting a tensor to a Python integer might cause the trace to be incorrect. We can't record the data flow of Python values, so this value will be treated as a constant in the future. This means that the trace might not generalize to other inputs!
+  shape = torch.prod(torch.tensor(x.shape[1:])).item()
+/home/cal-06/Desktop/test/caunas.py:169: TracerWarning: Converting a tensor to a Python number might cause the trace to be incorrect. We can't record the data flow of Python values, so this value will be treated as a constant in the future. This means that the trace might not generalize to other inputs!
+  shape = torch.prod(torch.tensor(x.shape[1:])).item()
+Operation                                                             OPS        
+--------------------------------------------------------------------  ---------  
+Sequential/FirstUnit[0]/Conv2d[conv]/onnx::Conv                       108864     
+Sequential/FirstUnit[0]/BatchNorm2d[norm]/onnx::BatchNormalization    7776       
+Sequential/FirstUnit[0]/ReLU[relu]/onnx::Relu                         7776       
+Sequential/ConvUnit[1]/Conv2d[conv1x1]/onnx::Conv                     23328      
+Sequential/ConvUnit[1]/BatchNorm2d[norm1]/onnx::BatchNormalization    3888       
+Sequential/ConvUnit[1]/ReLU[relu]/onnx::Relu                          3888       
+Sequential/ConvUnit[1]/GroupConv[group_conv]/onnx::Conv               17496      
+Sequential/ConvUnit[1]/GroupConv[group_conv]/Conv2d/onnx::Conv        972        
+Sequential/ConvUnit[1]/GroupConv[group_conv]/Conv2d/onnx::Conv        972        
+Sequential/ConvUnit[1]/GroupConv[group_conv]/Conv2d/onnx::Conv        972        
+Sequential/ConvUnit[1]/GroupConv[group_conv]/Conv2d/onnx::Conv        2916       
+Sequential/ConvUnit[1]/BatchNorm2d[norm2]/onnx::BatchNormalization    7776       
+Sequential/ConvUnit[1]/ReLU[relu]/onnx::Relu                          15552      
+Sequential/ConvUnit[2]/Conv2d[conv1x1]/onnx::Conv                     93312      
+Sequential/ConvUnit[2]/BatchNorm2d[norm1]/onnx::BatchNormalization    7776       
+Sequential/ConvUnit[2]/ReLU[relu]/onnx::Relu                          7776       
+Sequential/ConvUnit[2]/GroupConv[group_conv]/onnx::Conv               34992      
+Sequential/ConvUnit[2]/GroupConv[group_conv]/Conv2d/onnx::Conv        93312      
+Sequential/ConvUnit[2]/BatchNorm2d[norm2]/onnx::BatchNormalization    15552      
+Sequential/ConvUnit[2]/onnx::Add                                      7776       
+Sequential/ConvUnit[2]/ReLU[relu]/onnx::Relu                          15552      
+Sequential/ConvUnit[3]/Conv2d[conv1x1]/onnx::Conv                     93312      
+Sequential/ConvUnit[3]/BatchNorm2d[norm1]/onnx::BatchNormalization    7776       
+Sequential/ConvUnit[3]/ReLU[relu]/onnx::Relu                          7776       
+Sequential/ConvUnit[3]/GroupConv[group_conv]/onnx::Conv               34992      
+Sequential/ConvUnit[3]/GroupConv[group_conv]/Conv2d/onnx::Conv        93312      
+Sequential/ConvUnit[3]/BatchNorm2d[norm2]/onnx::BatchNormalization    15552      
+Sequential/ConvUnit[3]/ReLU[relu]/onnx::Relu                          31104      
+Sequential/ConvUnit[4]/Conv2d[conv1x1]/onnx::Conv                     373248     
+Sequential/ConvUnit[4]/BatchNorm2d[norm1]/onnx::BatchNormalization    15552      
+Sequential/ConvUnit[4]/ReLU[relu]/onnx::Relu                          15552      
+Sequential/ConvUnit[4]/GroupConv[group_conv]/onnx::Conv               69984      
+Sequential/ConvUnit[4]/GroupConv[group_conv]/Conv2d/onnx::Conv        93312      
+Sequential/ConvUnit[4]/GroupConv[group_conv]/Conv2d/onnx::Conv        93312      
+Sequential/ConvUnit[4]/BatchNorm2d[norm2]/onnx::BatchNormalization    31104      
+Sequential/ConvUnit[4]/onnx::Add                                      15552      
+Sequential/ConvUnit[4]/ReLU[relu]/onnx::Relu                          31104      
+Sequential/ConvUnit[5]/Conv2d[conv1x1]/onnx::Conv                     373248     
+Sequential/ConvUnit[5]/BatchNorm2d[norm1]/onnx::BatchNormalization    15552      
+Sequential/ConvUnit[5]/ReLU[relu]/onnx::Relu                          15552      
+Sequential/ConvUnit[5]/GroupConv[group_conv]/onnx::Conv               69984      
+Sequential/ConvUnit[5]/GroupConv[group_conv]/Conv2d/onnx::Conv        93312      
+Sequential/ConvUnit[5]/GroupConv[group_conv]/Conv2d/onnx::Conv        93312      
+Sequential/ConvUnit[5]/BatchNorm2d[norm2]/onnx::BatchNormalization    31104      
+Sequential/ConvUnit[5]/ReLU[relu]/onnx::Relu                          62208      
+Sequential/ConvUnit[6]/Conv2d[conv1x1]/onnx::Conv                     1492992    
+Sequential/ConvUnit[6]/BatchNorm2d[norm1]/onnx::BatchNormalization    31104      
+Sequential/ConvUnit[6]/ReLU[relu]/onnx::Relu                          31104      
+Sequential/ConvUnit[6]/GroupConv[group_conv]/onnx::Conv               139968     
+Sequential/ConvUnit[6]/GroupConv[group_conv]/Conv2d/onnx::Conv        165888     
+Sequential/ConvUnit[6]/GroupConv[group_conv]/Conv2d/onnx::Conv        165888     
+Sequential/ConvUnit[6]/GroupConv[group_conv]/Conv2d/onnx::Conv        165888     
+Sequential/ConvUnit[6]/BatchNorm2d[norm2]/onnx::BatchNormalization    62208      
+Sequential/ConvUnit[6]/onnx::Add                                      31104      
+Sequential/ConvUnit[6]/ReLU[relu]/onnx::Relu                          62208      
+Sequential/ConvUnit[7]/Conv2d[conv1x1]/onnx::Conv                     1492992    
+Sequential/ConvUnit[7]/BatchNorm2d[norm1]/onnx::BatchNormalization    31104      
+Sequential/ConvUnit[7]/ReLU[relu]/onnx::Relu                          31104      
+Sequential/ConvUnit[7]/GroupConv[group_conv]/onnx::Conv               139968     
+Sequential/ConvUnit[7]/GroupConv[group_conv]/Conv2d/onnx::Conv        373248     
+Sequential/ConvUnit[7]/GroupConv[group_conv]/Conv2d/onnx::Conv        373248     
+Sequential/ConvUnit[7]/BatchNorm2d[norm2]/onnx::BatchNormalization    62208      
+Sequential/ConvUnit[7]/ReLU[relu]/onnx::Relu                          124416     
+Sequential/ConvUnit[8]/Conv2d[conv1x1]/onnx::Conv                     5971968    
+Sequential/ConvUnit[8]/BatchNorm2d[norm1]/onnx::BatchNormalization    62208      
+Sequential/ConvUnit[8]/ReLU[relu]/onnx::Relu                          62208      
+Sequential/ConvUnit[8]/GroupConv[group_conv]/onnx::Conv               279936     
+Sequential/ConvUnit[8]/GroupConv[group_conv]/Conv2d/onnx::Conv        373248     
+Sequential/ConvUnit[8]/GroupConv[group_conv]/Conv2d/onnx::Conv        373248     
+Sequential/ConvUnit[8]/GroupConv[group_conv]/Conv2d/onnx::Conv        373248     
+Sequential/ConvUnit[8]/GroupConv[group_conv]/Conv2d/onnx::Conv        373248     
+Sequential/ConvUnit[8]/BatchNorm2d[norm2]/onnx::BatchNormalization    124416     
+Sequential/ConvUnit[8]/onnx::Add                                      62208      
+Sequential/ConvUnit[8]/ReLU[relu]/onnx::Relu                          124416     
+Sequential/ConvUnit[9]/Conv2d[conv1x1]/onnx::Conv                     5971968    
+Sequential/ConvUnit[9]/BatchNorm2d[norm1]/onnx::BatchNormalization    62208      
+Sequential/ConvUnit[9]/ReLU[relu]/onnx::Relu                          62208      
+Sequential/ConvUnit[9]/GroupConv[group_conv]/onnx::Conv               279936     
+Sequential/ConvUnit[9]/GroupConv[group_conv]/Conv2d/onnx::Conv        373248     
+Sequential/ConvUnit[9]/GroupConv[group_conv]/Conv2d/onnx::Conv        373248     
+Sequential/ConvUnit[9]/GroupConv[group_conv]/Conv2d/onnx::Conv        373248     
+Sequential/ConvUnit[9]/GroupConv[group_conv]/Conv2d/onnx::Conv        373248     
+Sequential/ConvUnit[9]/BatchNorm2d[norm2]/onnx::BatchNormalization    124416     
+Sequential/ConvUnit[9]/ReLU[relu]/onnx::Relu                          248832     
+Sequential/ConvUnit[10]/Conv2d[conv1x1]/onnx::Conv                    23887872   
+Sequential/ConvUnit[10]/BatchNorm2d[norm1]/onnx::BatchNormalization   124416     
+Sequential/ConvUnit[10]/ReLU[relu]/onnx::Relu                         124416     
+Sequential/ConvUnit[10]/GroupConv[group_conv]/onnx::Conv              559872     
+Sequential/ConvUnit[10]/GroupConv[group_conv]/Conv2d/onnx::Conv       1492992    
+Sequential/ConvUnit[10]/GroupConv[group_conv]/Conv2d/onnx::Conv       1492992    
+Sequential/ConvUnit[10]/GroupConv[group_conv]/Conv2d/onnx::Conv       1492992    
+Sequential/ConvUnit[10]/GroupConv[group_conv]/Conv2d/onnx::Conv       1492992    
+Sequential/ConvUnit[10]/BatchNorm2d[norm2]/onnx::BatchNormalization   248832     
+Sequential/ConvUnit[10]/onnx::Add                                     124416     
+Sequential/ConvUnit[10]/ReLU[relu]/onnx::Relu                         248832     
+Sequential/LastUnit[11]/onnx::GlobalAveragePool                       124416     
+Sequential/LastUnit[11]/Linear[fc]/onnx::Gemm                         3840       
+-------------------------------------------------------------------   --------   
+Input size: (1, 3, 32, 32)
+55,073,472 FLOPs or approx. 0.06 GFLOPs
+Average cuda inference time : 0.004
+Average cuda inference time : 0.004
+Average cpu inference time : 0.006

@@ -1,0 +1,653 @@
+11/02 07:41:33 PM 0
+11/02 07:41:33 PM 2
+11/02 07:41:33 PM 2
+11/02 07:41:33 PM 2
+11/02 07:41:33 PM 1
+11/02 07:41:33 PM 1
+11/02 07:41:33 PM 1
+11/02 07:41:33 PM 2
+11/02 07:41:33 PM 3
+11/02 07:41:33 PM 3
+Files already downloaded and verified
+Files already downloaded and verified
+11/02 07:41:50 PM Epoch:[1/200] | Train Loss: 1.2791 | top1: 0.6454 | top5: 0.9055
+11/02 07:41:52 PM Top1 Accuracy is : 0.45361948013305664
+11/02 07:42:08 PM Epoch:[2/200] | Train Loss: 0.9998 | top1: 0.7065 | top5: 0.9346
+11/02 07:42:09 PM Top1 Accuracy is : 0.4892207384109497
+11/02 07:42:25 PM Epoch:[3/200] | Train Loss: 0.9470 | top1: 0.7198 | top5: 0.9396
+11/02 07:42:26 PM Top1 Accuracy is : 0.5513251423835754
+11/02 07:42:42 PM Epoch:[4/200] | Train Loss: 0.9188 | top1: 0.7269 | top5: 0.9436
+11/02 07:42:43 PM Top1 Accuracy is : 0.5205696225166321
+11/02 07:42:59 PM Epoch:[5/200] | Train Loss: 0.9029 | top1: 0.7319 | top5: 0.9465
+11/02 07:43:00 PM Top1 Accuracy is : 0.5187895894050598
+11/02 07:43:16 PM Epoch:[6/200] | Train Loss: 0.9027 | top1: 0.7286 | top5: 0.9459
+11/02 07:43:17 PM Top1 Accuracy is : 0.45876187086105347
+11/02 07:43:33 PM Epoch:[7/200] | Train Loss: 0.8978 | top1: 0.7300 | top5: 0.9459
+11/02 07:43:35 PM Top1 Accuracy is : 0.5183939933776855
+11/02 07:43:51 PM Epoch:[8/200] | Train Loss: 0.8904 | top1: 0.7340 | top5: 0.9466
+11/02 07:43:52 PM Top1 Accuracy is : 0.5641812086105347
+11/02 07:44:08 PM Epoch:[9/200] | Train Loss: 0.8915 | top1: 0.7334 | top5: 0.9465
+11/02 07:44:09 PM Top1 Accuracy is : 0.5614122152328491
+11/02 07:44:25 PM Epoch:[10/200] | Train Loss: 0.8946 | top1: 0.7332 | top5: 0.9463
+11/02 07:44:26 PM Top1 Accuracy is : 0.5544897317886353
+11/02 07:44:42 PM Epoch:[11/200] | Train Loss: 0.8848 | top1: 0.7351 | top5: 0.9473
+11/02 07:44:43 PM Top1 Accuracy is : 0.5591377019882202
+11/02 07:44:59 PM Epoch:[12/200] | Train Loss: 0.8767 | top1: 0.7356 | top5: 0.9495
+11/02 07:45:00 PM Top1 Accuracy is : 0.5692247152328491
+11/02 07:45:16 PM Epoch:[13/200] | Train Loss: 0.8792 | top1: 0.7349 | top5: 0.9475
+11/02 07:45:18 PM Top1 Accuracy is : 0.5469738841056824
+11/02 07:45:33 PM Epoch:[14/200] | Train Loss: 0.8824 | top1: 0.7358 | top5: 0.9474
+11/02 07:45:35 PM Top1 Accuracy is : 0.4950553774833679
+11/02 07:45:50 PM Epoch:[15/200] | Train Loss: 0.8835 | top1: 0.7344 | top5: 0.9487
+11/02 07:45:51 PM Top1 Accuracy is : 0.5281843543052673
+11/02 07:46:07 PM Epoch:[16/200] | Train Loss: 0.8784 | top1: 0.7372 | top5: 0.9486
+11/02 07:46:08 PM Top1 Accuracy is : 0.5293710827827454
+11/02 07:46:24 PM Epoch:[17/200] | Train Loss: 0.8733 | top1: 0.7358 | top5: 0.9498
+11/02 07:46:25 PM Top1 Accuracy is : 0.5577532052993774
+11/02 07:46:41 PM Epoch:[18/200] | Train Loss: 0.8635 | top1: 0.7401 | top5: 0.9498
+11/02 07:46:42 PM Top1 Accuracy is : 0.544303834438324
+11/02 07:46:58 PM Epoch:[19/200] | Train Loss: 0.8657 | top1: 0.7411 | top5: 0.9500
+11/02 07:46:59 PM Top1 Accuracy is : 0.582179605960846
+11/02 07:47:15 PM Epoch:[20/200] | Train Loss: 0.8616 | top1: 0.7403 | top5: 0.9504
+11/02 07:47:17 PM Top1 Accuracy is : 0.5451938509941101
+11/02 07:47:33 PM Epoch:[21/200] | Train Loss: 0.8627 | top1: 0.7401 | top5: 0.9501
+11/02 07:47:34 PM Top1 Accuracy is : 0.5490506291389465
+11/02 07:47:50 PM Epoch:[22/200] | Train Loss: 0.8565 | top1: 0.7427 | top5: 0.9501
+11/02 07:47:51 PM Top1 Accuracy is : 0.5585443377494812
+11/02 07:48:07 PM Epoch:[23/200] | Train Loss: 0.8591 | top1: 0.7442 | top5: 0.9497
+11/02 07:48:08 PM Top1 Accuracy is : 0.5535997152328491
+11/02 07:48:24 PM Epoch:[24/200] | Train Loss: 0.8573 | top1: 0.7435 | top5: 0.9491
+11/02 07:48:26 PM Top1 Accuracy is : 0.5138449668884277
+11/02 07:48:42 PM Epoch:[25/200] | Train Loss: 0.8465 | top1: 0.7438 | top5: 0.9520
+11/02 07:48:43 PM Top1 Accuracy is : 0.5343157052993774
+11/02 07:48:59 PM Epoch:[26/200] | Train Loss: 0.8512 | top1: 0.7442 | top5: 0.9515
+11/02 07:49:00 PM Top1 Accuracy is : 0.5379747152328491
+11/02 07:49:16 PM Epoch:[27/200] | Train Loss: 0.8460 | top1: 0.7460 | top5: 0.9514
+11/02 07:49:17 PM Top1 Accuracy is : 0.5699169635772705
+11/02 07:49:33 PM Epoch:[28/200] | Train Loss: 0.8457 | top1: 0.7433 | top5: 0.9526
+11/02 07:49:34 PM Top1 Accuracy is : 0.5910798907279968
+11/02 07:49:50 PM Epoch:[29/200] | Train Loss: 0.8319 | top1: 0.7472 | top5: 0.9540
+11/02 07:49:51 PM Top1 Accuracy is : 0.5560719966888428
+11/02 07:50:07 PM Epoch:[30/200] | Train Loss: 0.8355 | top1: 0.7495 | top5: 0.9528
+11/02 07:50:08 PM Top1 Accuracy is : 0.5549842119216919
+11/02 07:50:24 PM Epoch:[31/200] | Train Loss: 0.8429 | top1: 0.7461 | top5: 0.9511
+11/02 07:50:26 PM Top1 Accuracy is : 0.5508307218551636
+11/02 07:50:42 PM Epoch:[32/200] | Train Loss: 0.8240 | top1: 0.7507 | top5: 0.9543
+11/02 07:50:43 PM Top1 Accuracy is : 0.5407437086105347
+11/02 07:50:59 PM Epoch:[33/200] | Train Loss: 0.8261 | top1: 0.7518 | top5: 0.9535
+11/02 07:51:00 PM Top1 Accuracy is : 0.5487539768218994
+11/02 07:51:16 PM Epoch:[34/200] | Train Loss: 0.8195 | top1: 0.7522 | top5: 0.9543
+11/02 07:51:17 PM Top1 Accuracy is : 0.5807951092720032
+11/02 07:51:33 PM Epoch:[35/200] | Train Loss: 0.8144 | top1: 0.7563 | top5: 0.9554
+11/02 07:51:34 PM Top1 Accuracy is : 0.5984968543052673
+11/02 07:51:50 PM Epoch:[36/200] | Train Loss: 0.8068 | top1: 0.7544 | top5: 0.9560
+11/02 07:51:52 PM Top1 Accuracy is : 0.5476661324501038
+11/02 07:52:07 PM Epoch:[37/200] | Train Loss: 0.8129 | top1: 0.7528 | top5: 0.9562
+11/02 07:52:09 PM Top1 Accuracy is : 0.5574564933776855
+11/02 07:52:24 PM Epoch:[38/200] | Train Loss: 0.8126 | top1: 0.7535 | top5: 0.9556
+11/02 07:52:26 PM Top1 Accuracy is : 0.5644778609275818
+11/02 07:52:42 PM Epoch:[39/200] | Train Loss: 0.7947 | top1: 0.7586 | top5: 0.9575
+11/02 07:52:43 PM Top1 Accuracy is : 0.5721914768218994
+11/02 07:52:59 PM Epoch:[40/200] | Train Loss: 0.7975 | top1: 0.7586 | top5: 0.9570
+11/02 07:53:00 PM Top1 Accuracy is : 0.5513251423835754
+11/02 07:53:16 PM Epoch:[41/200] | Train Loss: 0.7898 | top1: 0.7608 | top5: 0.9575
+11/02 07:53:17 PM Top1 Accuracy is : 0.5722903609275818
+11/02 07:53:33 PM Epoch:[42/200] | Train Loss: 0.7875 | top1: 0.7605 | top5: 0.9577
+11/02 07:53:35 PM Top1 Accuracy is : 0.5646756291389465
+11/02 07:53:50 PM Epoch:[43/200] | Train Loss: 0.7849 | top1: 0.7592 | top5: 0.9579
+11/02 07:53:51 PM Top1 Accuracy is : 0.4906052350997925
+11/02 07:54:07 PM Epoch:[44/200] | Train Loss: 0.7753 | top1: 0.7629 | top5: 0.9593
+11/02 07:54:09 PM Top1 Accuracy is : 0.5298655033111572
+11/02 07:54:25 PM Epoch:[45/200] | Train Loss: 0.7754 | top1: 0.7618 | top5: 0.9597
+11/02 07:54:26 PM Top1 Accuracy is : 0.555874228477478
+11/02 07:54:42 PM Epoch:[46/200] | Train Loss: 0.7788 | top1: 0.7628 | top5: 0.9597
+11/02 07:54:43 PM Top1 Accuracy is : 0.5583465099334717
+11/02 07:54:59 PM Epoch:[47/200] | Train Loss: 0.7679 | top1: 0.7654 | top5: 0.9597
+11/02 07:55:00 PM Top1 Accuracy is : 0.5383702516555786
+11/02 07:55:16 PM Epoch:[48/200] | Train Loss: 0.7701 | top1: 0.7679 | top5: 0.9590
+11/02 07:55:18 PM Top1 Accuracy is : 0.5038568377494812
+11/02 07:55:34 PM Epoch:[49/200] | Train Loss: 0.7576 | top1: 0.7678 | top5: 0.9626
+11/02 07:55:35 PM Top1 Accuracy is : 0.6007713675498962
+11/02 07:55:50 PM Epoch:[50/200] | Train Loss: 0.7596 | top1: 0.7669 | top5: 0.9604
+11/02 07:55:52 PM Top1 Accuracy is : 0.566554605960846
+11/02 07:56:08 PM Epoch:[51/200] | Train Loss: 0.7584 | top1: 0.7700 | top5: 0.9607
+11/02 07:56:09 PM Top1 Accuracy is : 0.5393592119216919
+11/02 07:56:24 PM Epoch:[52/200] | Train Loss: 0.7537 | top1: 0.7682 | top5: 0.9610
+11/02 07:56:25 PM Top1 Accuracy is : 0.5825752019882202
+11/02 07:56:41 PM Epoch:[53/200] | Train Loss: 0.7412 | top1: 0.7729 | top5: 0.9626
+11/02 07:56:43 PM Top1 Accuracy is : 0.5603243708610535
+11/02 07:56:59 PM Epoch:[54/200] | Train Loss: 0.7308 | top1: 0.7775 | top5: 0.9637
+11/02 07:57:00 PM Top1 Accuracy is : 0.5761471390724182
+11/02 07:57:16 PM Epoch:[55/200] | Train Loss: 0.7330 | top1: 0.7754 | top5: 0.9644
+11/02 07:57:17 PM Top1 Accuracy is : 0.5635878443717957
+11/02 07:57:33 PM Epoch:[56/200] | Train Loss: 0.7324 | top1: 0.7765 | top5: 0.9638
+11/02 07:57:34 PM Top1 Accuracy is : 0.5818829536437988
+11/02 07:57:50 PM Epoch:[57/200] | Train Loss: 0.7231 | top1: 0.7798 | top5: 0.9636
+11/02 07:57:52 PM Top1 Accuracy is : 0.5448971390724182
+11/02 07:58:08 PM Epoch:[58/200] | Train Loss: 0.7199 | top1: 0.7799 | top5: 0.9645
+11/02 07:58:09 PM Top1 Accuracy is : 0.5395569801330566
+11/02 07:58:25 PM Epoch:[59/200] | Train Loss: 0.7183 | top1: 0.7781 | top5: 0.9649
+11/02 07:58:26 PM Top1 Accuracy is : 0.5563687086105347
+11/02 07:58:42 PM Epoch:[60/200] | Train Loss: 0.7156 | top1: 0.7824 | top5: 0.9655
+11/02 07:58:43 PM Top1 Accuracy is : 0.5944422483444214
+11/02 07:58:59 PM Epoch:[61/200] | Train Loss: 0.7091 | top1: 0.7832 | top5: 0.9659
+11/02 07:59:00 PM Top1 Accuracy is : 0.5706092119216919
+11/02 07:59:16 PM Epoch:[62/200] | Train Loss: 0.6982 | top1: 0.7855 | top5: 0.9670
+11/02 07:59:18 PM Top1 Accuracy is : 0.5822784900665283
+11/02 07:59:34 PM Epoch:[63/200] | Train Loss: 0.7018 | top1: 0.7855 | top5: 0.9668
+11/02 07:59:35 PM Top1 Accuracy is : 0.5738726258277893
+11/02 07:59:51 PM Epoch:[64/200] | Train Loss: 0.6991 | top1: 0.7854 | top5: 0.9671
+11/02 07:59:52 PM Top1 Accuracy is : 0.5874208807945251
+11/02 08:00:08 PM Epoch:[65/200] | Train Loss: 0.6832 | top1: 0.7899 | top5: 0.9679
+11/02 08:00:09 PM Top1 Accuracy is : 0.5979034900665283
+11/02 08:00:25 PM Epoch:[66/200] | Train Loss: 0.6878 | top1: 0.7895 | top5: 0.9684
+11/02 08:00:27 PM Top1 Accuracy is : 0.5625
+11/02 08:00:43 PM Epoch:[67/200] | Train Loss: 0.6802 | top1: 0.7908 | top5: 0.9701
+11/02 08:00:44 PM Top1 Accuracy is : 0.5594343543052673
+11/02 08:01:00 PM Epoch:[68/200] | Train Loss: 0.6664 | top1: 0.7950 | top5: 0.9698
+11/02 08:01:01 PM Top1 Accuracy is : 0.5788172483444214
+11/02 08:01:17 PM Epoch:[69/200] | Train Loss: 0.6698 | top1: 0.7923 | top5: 0.9687
+11/02 08:01:19 PM Top1 Accuracy is : 0.549248456954956
+11/02 08:01:34 PM Epoch:[70/200] | Train Loss: 0.6570 | top1: 0.7982 | top5: 0.9713
+11/02 08:01:36 PM Top1 Accuracy is : 0.547468364238739
+11/02 08:01:52 PM Epoch:[71/200] | Train Loss: 0.6601 | top1: 0.7968 | top5: 0.9706
+11/02 08:01:53 PM Top1 Accuracy is : 0.5723892450332642
+11/02 08:02:09 PM Epoch:[72/200] | Train Loss: 0.6480 | top1: 0.8010 | top5: 0.9708
+11/02 08:02:10 PM Top1 Accuracy is : 0.566554605960846
+11/02 08:02:26 PM Epoch:[73/200] | Train Loss: 0.6406 | top1: 0.8023 | top5: 0.9723
+11/02 08:02:28 PM Top1 Accuracy is : 0.5946400761604309
+11/02 08:02:44 PM Epoch:[74/200] | Train Loss: 0.6458 | top1: 0.8007 | top5: 0.9720
+11/02 08:02:45 PM Top1 Accuracy is : 0.5856408476829529
+11/02 08:03:01 PM Epoch:[75/200] | Train Loss: 0.6301 | top1: 0.8031 | top5: 0.9748
+11/02 08:03:02 PM Top1 Accuracy is : 0.5729826092720032
+11/02 08:03:17 PM Epoch:[76/200] | Train Loss: 0.6366 | top1: 0.8031 | top5: 0.9739
+11/02 08:03:19 PM Top1 Accuracy is : 0.5532041192054749
+11/02 08:03:34 PM Epoch:[77/200] | Train Loss: 0.6230 | top1: 0.8081 | top5: 0.9731
+11/02 08:03:36 PM Top1 Accuracy is : 0.5890032052993774
+11/02 08:03:52 PM Epoch:[78/200] | Train Loss: 0.6142 | top1: 0.8090 | top5: 0.9741
+11/02 08:03:53 PM Top1 Accuracy is : 0.5850474834442139
+11/02 08:04:09 PM Epoch:[79/200] | Train Loss: 0.6091 | top1: 0.8107 | top5: 0.9743
+11/02 08:04:10 PM Top1 Accuracy is : 0.5830696225166321
+11/02 08:04:26 PM Epoch:[80/200] | Train Loss: 0.6080 | top1: 0.8103 | top5: 0.9758
+11/02 08:04:27 PM Top1 Accuracy is : 0.5702136158943176
+11/02 08:04:43 PM Epoch:[81/200] | Train Loss: 0.6038 | top1: 0.8130 | top5: 0.9757
+11/02 08:04:44 PM Top1 Accuracy is : 0.5776305794715881
+11/02 08:05:00 PM Epoch:[82/200] | Train Loss: 0.5917 | top1: 0.8155 | top5: 0.9761
+11/02 08:05:02 PM Top1 Accuracy is : 0.5858386158943176
+11/02 08:05:17 PM Epoch:[83/200] | Train Loss: 0.5870 | top1: 0.8165 | top5: 0.9768
+11/02 08:05:19 PM Top1 Accuracy is : 0.5987935066223145
+11/02 08:05:35 PM Epoch:[84/200] | Train Loss: 0.5775 | top1: 0.8191 | top5: 0.9777
+11/02 08:05:36 PM Top1 Accuracy is : 0.6007713675498962
+11/02 08:05:51 PM Epoch:[85/200] | Train Loss: 0.5824 | top1: 0.8168 | top5: 0.9787
+11/02 08:05:53 PM Top1 Accuracy is : 0.5810917615890503
+11/02 08:06:09 PM Epoch:[86/200] | Train Loss: 0.5643 | top1: 0.8252 | top5: 0.9788
+11/02 08:06:10 PM Top1 Accuracy is : 0.5912777185440063
+11/02 08:06:26 PM Epoch:[87/200] | Train Loss: 0.5598 | top1: 0.8245 | top5: 0.9801
+11/02 08:06:27 PM Top1 Accuracy is : 0.5716969966888428
+11/02 08:06:43 PM Epoch:[88/200] | Train Loss: 0.5575 | top1: 0.8254 | top5: 0.9794
+11/02 08:06:44 PM Top1 Accuracy is : 0.5935522317886353
+11/02 08:07:00 PM Epoch:[89/200] | Train Loss: 0.5556 | top1: 0.8258 | top5: 0.9802
+11/02 08:07:01 PM Top1 Accuracy is : 0.5960245132446289
+11/02 08:07:17 PM Epoch:[90/200] | Train Loss: 0.5427 | top1: 0.8319 | top5: 0.9808
+11/02 08:07:19 PM Top1 Accuracy is : 0.6085838675498962
+11/02 08:07:35 PM Epoch:[91/200] | Train Loss: 0.5390 | top1: 0.8329 | top5: 0.9805
+11/02 08:07:36 PM Top1 Accuracy is : 0.6120451092720032
+11/02 08:07:52 PM Epoch:[92/200] | Train Loss: 0.5349 | top1: 0.8327 | top5: 0.9813
+11/02 08:07:53 PM Top1 Accuracy is : 0.6144185066223145
+11/02 08:08:09 PM Epoch:[93/200] | Train Loss: 0.5194 | top1: 0.8370 | top5: 0.9821
+11/02 08:08:10 PM Top1 Accuracy is : 0.5710047483444214
+11/02 08:08:26 PM Epoch:[94/200] | Train Loss: 0.5267 | top1: 0.8354 | top5: 0.9825
+11/02 08:08:28 PM Top1 Accuracy is : 0.5807951092720032
+11/02 08:08:43 PM Epoch:[95/200] | Train Loss: 0.5148 | top1: 0.8405 | top5: 0.9827
+11/02 08:08:45 PM Top1 Accuracy is : 0.5971123576164246
+11/02 08:09:01 PM Epoch:[96/200] | Train Loss: 0.5155 | top1: 0.8396 | top5: 0.9824
+11/02 08:09:02 PM Top1 Accuracy is : 0.5819818377494812
+11/02 08:09:18 PM Epoch:[97/200] | Train Loss: 0.4992 | top1: 0.8447 | top5: 0.9832
+11/02 08:09:19 PM Top1 Accuracy is : 0.5763449668884277
+11/02 08:09:35 PM Epoch:[98/200] | Train Loss: 0.4940 | top1: 0.8460 | top5: 0.9847
+11/02 08:09:36 PM Top1 Accuracy is : 0.5868275761604309
+11/02 08:09:52 PM Epoch:[99/200] | Train Loss: 0.4886 | top1: 0.8477 | top5: 0.9855
+11/02 08:09:54 PM Top1 Accuracy is : 0.608781635761261
+11/02 08:10:10 PM Epoch:[100/200] | Train Loss: 0.4860 | top1: 0.8485 | top5: 0.9845
+11/02 08:10:11 PM Top1 Accuracy is : 0.6070016026496887
+11/02 08:10:27 PM Epoch:[101/200] | Train Loss: 0.4683 | top1: 0.8534 | top5: 0.9862
+11/02 08:10:28 PM Top1 Accuracy is : 0.5819818377494812
+11/02 08:10:43 PM Epoch:[102/200] | Train Loss: 0.4702 | top1: 0.8522 | top5: 0.9873
+11/02 08:10:45 PM Top1 Accuracy is : 0.6214398741722107
+11/02 08:11:01 PM Epoch:[103/200] | Train Loss: 0.4639 | top1: 0.8540 | top5: 0.9865
+11/02 08:11:02 PM Top1 Accuracy is : 0.6008702516555786
+11/02 08:11:18 PM Epoch:[104/200] | Train Loss: 0.4541 | top1: 0.8592 | top5: 0.9878
+11/02 08:11:19 PM Top1 Accuracy is : 0.590585470199585
+11/02 08:11:35 PM Epoch:[105/200] | Train Loss: 0.4394 | top1: 0.8614 | top5: 0.9884
+11/02 08:11:36 PM Top1 Accuracy is : 0.6071993708610535
+11/02 08:11:51 PM Epoch:[106/200] | Train Loss: 0.4259 | top1: 0.8674 | top5: 0.9889
+11/02 08:11:53 PM Top1 Accuracy is : 0.6042326092720032
+11/02 08:12:08 PM Epoch:[107/200] | Train Loss: 0.4374 | top1: 0.8624 | top5: 0.9882
+11/02 08:12:09 PM Top1 Accuracy is : 0.6025514602661133
+11/02 08:12:25 PM Epoch:[108/200] | Train Loss: 0.4263 | top1: 0.8669 | top5: 0.9892
+11/02 08:12:27 PM Top1 Accuracy is : 0.5987935066223145
+11/02 08:12:43 PM Epoch:[109/200] | Train Loss: 0.4204 | top1: 0.8682 | top5: 0.9889
+11/02 08:12:44 PM Top1 Accuracy is : 0.6036392450332642
+11/02 08:13:00 PM Epoch:[110/200] | Train Loss: 0.4113 | top1: 0.8728 | top5: 0.9903
+11/02 08:13:01 PM Top1 Accuracy is : 0.605617105960846
+11/02 08:13:17 PM Epoch:[111/200] | Train Loss: 0.4024 | top1: 0.8748 | top5: 0.9907
+11/02 08:13:18 PM Top1 Accuracy is : 0.6191653609275818
+11/02 08:13:34 PM Epoch:[112/200] | Train Loss: 0.3874 | top1: 0.8779 | top5: 0.9911
+11/02 08:13:35 PM Top1 Accuracy is : 0.6102650761604309
+11/02 08:13:51 PM Epoch:[113/200] | Train Loss: 0.3895 | top1: 0.8792 | top5: 0.9911
+11/02 08:13:52 PM Top1 Accuracy is : 0.6137262582778931
+11/02 08:14:08 PM Epoch:[114/200] | Train Loss: 0.3694 | top1: 0.8852 | top5: 0.9922
+11/02 08:14:10 PM Top1 Accuracy is : 0.6319224834442139
+11/02 08:14:25 PM Epoch:[115/200] | Train Loss: 0.3646 | top1: 0.8865 | top5: 0.9927
+11/02 08:14:26 PM Top1 Accuracy is : 0.6116495132446289
+11/02 08:14:42 PM Epoch:[116/200] | Train Loss: 0.3628 | top1: 0.8867 | top5: 0.9927
+11/02 08:14:43 PM Top1 Accuracy is : 0.6071004867553711
+11/02 08:14:59 PM Epoch:[117/200] | Train Loss: 0.3577 | top1: 0.8891 | top5: 0.9932
+11/02 08:15:00 PM Top1 Accuracy is : 0.6123417615890503
+11/02 08:15:16 PM Epoch:[118/200] | Train Loss: 0.3503 | top1: 0.8916 | top5: 0.9936
+11/02 08:15:17 PM Top1 Accuracy is : 0.6112539768218994
+11/02 08:15:33 PM Epoch:[119/200] | Train Loss: 0.3487 | top1: 0.8921 | top5: 0.9936
+11/02 08:15:34 PM Top1 Accuracy is : 0.6178797483444214
+11/02 08:15:50 PM Epoch:[120/200] | Train Loss: 0.3419 | top1: 0.8953 | top5: 0.9931
+11/02 08:15:52 PM Top1 Accuracy is : 0.6107594966888428
+11/02 08:16:08 PM Epoch:[121/200] | Train Loss: 0.3295 | top1: 0.8982 | top5: 0.9940
+11/02 08:16:09 PM Top1 Accuracy is : 0.603935956954956
+11/02 08:16:25 PM Epoch:[122/200] | Train Loss: 0.3136 | top1: 0.9055 | top5: 0.9954
+11/02 08:16:26 PM Top1 Accuracy is : 0.6145173907279968
+11/02 08:16:42 PM Epoch:[123/200] | Train Loss: 0.3078 | top1: 0.9073 | top5: 0.9955
+11/02 08:16:43 PM Top1 Accuracy is : 0.6193631291389465
+11/02 08:16:59 PM Epoch:[124/200] | Train Loss: 0.3098 | top1: 0.9042 | top5: 0.9951
+11/02 08:17:01 PM Top1 Accuracy is : 0.6210443377494812
+11/02 08:17:17 PM Epoch:[125/200] | Train Loss: 0.3035 | top1: 0.9068 | top5: 0.9955
+11/02 08:17:18 PM Top1 Accuracy is : 0.6220332384109497
+11/02 08:17:34 PM Epoch:[126/200] | Train Loss: 0.2896 | top1: 0.9121 | top5: 0.9962
+11/02 08:17:35 PM Top1 Accuracy is : 0.6294502019882202
+11/02 08:17:51 PM Epoch:[127/200] | Train Loss: 0.2743 | top1: 0.9183 | top5: 0.9965
+11/02 08:17:52 PM Top1 Accuracy is : 0.6181764602661133
+11/02 08:18:08 PM Epoch:[128/200] | Train Loss: 0.2693 | top1: 0.9201 | top5: 0.9967
+11/02 08:18:10 PM Top1 Accuracy is : 0.6084849834442139
+11/02 08:18:26 PM Epoch:[129/200] | Train Loss: 0.2654 | top1: 0.9217 | top5: 0.9968
+11/02 08:18:27 PM Top1 Accuracy is : 0.6278678774833679
+11/02 08:18:43 PM Epoch:[130/200] | Train Loss: 0.2559 | top1: 0.9246 | top5: 0.9969
+11/02 08:18:44 PM Top1 Accuracy is : 0.6221321225166321
+11/02 08:19:00 PM Epoch:[131/200] | Train Loss: 0.2543 | top1: 0.9253 | top5: 0.9971
+11/02 08:19:01 PM Top1 Accuracy is : 0.6370648741722107
+11/02 08:19:17 PM Epoch:[132/200] | Train Loss: 0.2422 | top1: 0.9287 | top5: 0.9976
+11/02 08:19:19 PM Top1 Accuracy is : 0.6344937086105347
+11/02 08:19:34 PM Epoch:[133/200] | Train Loss: 0.2373 | top1: 0.9315 | top5: 0.9977
+11/02 08:19:35 PM Top1 Accuracy is : 0.6390427350997925
+11/02 08:19:51 PM Epoch:[134/200] | Train Loss: 0.2256 | top1: 0.9368 | top5: 0.9977
+11/02 08:19:52 PM Top1 Accuracy is : 0.6391416192054749
+11/02 08:20:08 PM Epoch:[135/200] | Train Loss: 0.2160 | top1: 0.9403 | top5: 0.9983
+11/02 08:20:10 PM Top1 Accuracy is : 0.6387460827827454
+11/02 08:20:26 PM Epoch:[136/200] | Train Loss: 0.2163 | top1: 0.9394 | top5: 0.9984
+11/02 08:20:27 PM Top1 Accuracy is : 0.6426028609275818
+11/02 08:20:43 PM Epoch:[137/200] | Train Loss: 0.2116 | top1: 0.9405 | top5: 0.9984
+11/02 08:20:44 PM Top1 Accuracy is : 0.6379549503326416
+11/02 08:21:00 PM Epoch:[138/200] | Train Loss: 0.1999 | top1: 0.9452 | top5: 0.9986
+11/02 08:21:01 PM Top1 Accuracy is : 0.6371637582778931
+11/02 08:21:17 PM Epoch:[139/200] | Train Loss: 0.1918 | top1: 0.9481 | top5: 0.9987
+11/02 08:21:19 PM Top1 Accuracy is : 0.6383504867553711
+11/02 08:21:34 PM Epoch:[140/200] | Train Loss: 0.1847 | top1: 0.9511 | top5: 0.9988
+11/02 08:21:35 PM Top1 Accuracy is : 0.6392405033111572
+11/02 08:21:51 PM Epoch:[141/200] | Train Loss: 0.1792 | top1: 0.9534 | top5: 0.9991
+11/02 08:21:53 PM Top1 Accuracy is : 0.6366693377494812
+11/02 08:22:09 PM Epoch:[142/200] | Train Loss: 0.1729 | top1: 0.9548 | top5: 0.9992
+11/02 08:22:10 PM Top1 Accuracy is : 0.6500198245048523
+11/02 08:22:26 PM Epoch:[143/200] | Train Loss: 0.1653 | top1: 0.9582 | top5: 0.9992
+11/02 08:22:27 PM Top1 Accuracy is : 0.6460641026496887
+11/02 08:22:43 PM Epoch:[144/200] | Train Loss: 0.1639 | top1: 0.9585 | top5: 0.9992
+11/02 08:22:44 PM Top1 Accuracy is : 0.6526898741722107
+11/02 08:23:00 PM Epoch:[145/200] | Train Loss: 0.1565 | top1: 0.9619 | top5: 0.9996
+11/02 08:23:02 PM Top1 Accuracy is : 0.6525909900665283
+11/02 08:23:17 PM Epoch:[146/200] | Train Loss: 0.1476 | top1: 0.9655 | top5: 0.9993
+11/02 08:23:18 PM Top1 Accuracy is : 0.6553599834442139
+11/02 08:23:34 PM Epoch:[147/200] | Train Loss: 0.1492 | top1: 0.9624 | top5: 0.9995
+11/02 08:23:35 PM Top1 Accuracy is : 0.6528877019882202
+11/02 08:23:51 PM Epoch:[148/200] | Train Loss: 0.1406 | top1: 0.9669 | top5: 0.9995
+11/02 08:23:52 PM Top1 Accuracy is : 0.6485363841056824
+11/02 08:24:08 PM Epoch:[149/200] | Train Loss: 0.1339 | top1: 0.9706 | top5: 0.9995
+11/02 08:24:10 PM Top1 Accuracy is : 0.6549643874168396
+11/02 08:24:26 PM Epoch:[150/200] | Train Loss: 0.1327 | top1: 0.9695 | top5: 0.9997
+11/02 08:24:27 PM Top1 Accuracy is : 0.6501187086105347
+11/02 08:24:42 PM Epoch:[151/200] | Train Loss: 0.1248 | top1: 0.9728 | top5: 0.9997
+11/02 08:24:44 PM Top1 Accuracy is : 0.6598101258277893
+11/02 08:24:59 PM Epoch:[152/200] | Train Loss: 0.1236 | top1: 0.9736 | top5: 0.9997
+11/02 08:25:00 PM Top1 Accuracy is : 0.6529865860939026
+11/02 08:25:16 PM Epoch:[153/200] | Train Loss: 0.1169 | top1: 0.9759 | top5: 0.9998
+11/02 08:25:17 PM Top1 Accuracy is : 0.6558544635772705
+11/02 08:25:33 PM Epoch:[154/200] | Train Loss: 0.1128 | top1: 0.9775 | top5: 0.9998
+11/02 08:25:34 PM Top1 Accuracy is : 0.6577333807945251
+11/02 08:25:50 PM Epoch:[155/200] | Train Loss: 0.1128 | top1: 0.9761 | top5: 0.9997
+11/02 08:25:52 PM Top1 Accuracy is : 0.6522943377494812
+11/02 08:26:08 PM Epoch:[156/200] | Train Loss: 0.1046 | top1: 0.9800 | top5: 0.9999
+11/02 08:26:09 PM Top1 Accuracy is : 0.6611946225166321
+11/02 08:26:25 PM Epoch:[157/200] | Train Loss: 0.1037 | top1: 0.9806 | top5: 0.9998
+11/02 08:26:26 PM Top1 Accuracy is : 0.6591178774833679
+11/02 08:26:42 PM Epoch:[158/200] | Train Loss: 0.1017 | top1: 0.9818 | top5: 0.9998
+11/02 08:26:43 PM Top1 Accuracy is : 0.6604034900665283
+11/02 08:26:59 PM Epoch:[159/200] | Train Loss: 0.0985 | top1: 0.9826 | top5: 0.9998
+11/02 08:27:01 PM Top1 Accuracy is : 0.6610957384109497
+11/02 08:27:17 PM Epoch:[160/200] | Train Loss: 0.0930 | top1: 0.9846 | top5: 0.9999
+11/02 08:27:18 PM Top1 Accuracy is : 0.6625791192054749
+11/02 08:27:34 PM Epoch:[161/200] | Train Loss: 0.0912 | top1: 0.9848 | top5: 0.9999
+11/02 08:27:35 PM Top1 Accuracy is : 0.6597112417221069
+11/02 08:27:51 PM Epoch:[162/200] | Train Loss: 0.0895 | top1: 0.9855 | top5: 0.9999
+11/02 08:27:52 PM Top1 Accuracy is : 0.6575356125831604
+11/02 08:28:08 PM Epoch:[163/200] | Train Loss: 0.0849 | top1: 0.9869 | top5: 0.9999
+11/02 08:28:09 PM Top1 Accuracy is : 0.6607002019882202
+11/02 08:28:25 PM Epoch:[164/200] | Train Loss: 0.0839 | top1: 0.9873 | top5: 0.9999
+11/02 08:28:26 PM Top1 Accuracy is : 0.6627768874168396
+11/02 08:28:42 PM Epoch:[165/200] | Train Loss: 0.0826 | top1: 0.9877 | top5: 0.9999
+11/02 08:28:43 PM Top1 Accuracy is : 0.6621835827827454
+11/02 08:28:59 PM Epoch:[166/200] | Train Loss: 0.0794 | top1: 0.9884 | top5: 1.0000
+11/02 08:29:01 PM Top1 Accuracy is : 0.6653481125831604
+11/02 08:29:17 PM Epoch:[167/200] | Train Loss: 0.0779 | top1: 0.9890 | top5: 0.9999
+11/02 08:29:18 PM Top1 Accuracy is : 0.6626780033111572
+11/02 08:29:34 PM Epoch:[168/200] | Train Loss: 0.0769 | top1: 0.9900 | top5: 0.9999
+11/02 08:29:35 PM Top1 Accuracy is : 0.6628758311271667
+11/02 08:29:51 PM Epoch:[169/200] | Train Loss: 0.0752 | top1: 0.9897 | top5: 0.9999
+11/02 08:29:52 PM Top1 Accuracy is : 0.665249228477478
+11/02 08:30:08 PM Epoch:[170/200] | Train Loss: 0.0734 | top1: 0.9907 | top5: 1.0000
+11/02 08:30:09 PM Top1 Accuracy is : 0.6638647317886353
+11/02 08:30:25 PM Epoch:[171/200] | Train Loss: 0.0713 | top1: 0.9911 | top5: 1.0000
+11/02 08:30:27 PM Top1 Accuracy is : 0.663469135761261
+11/02 08:30:43 PM Epoch:[172/200] | Train Loss: 0.0695 | top1: 0.9919 | top5: 0.9999
+11/02 08:30:44 PM Top1 Accuracy is : 0.6654469966888428
+11/02 08:31:00 PM Epoch:[173/200] | Train Loss: 0.0700 | top1: 0.9915 | top5: 1.0000
+11/02 08:31:01 PM Top1 Accuracy is : 0.6636669635772705
+11/02 08:31:17 PM Epoch:[174/200] | Train Loss: 0.0681 | top1: 0.9917 | top5: 1.0000
+11/02 08:31:18 PM Top1 Accuracy is : 0.6656448245048523
+11/02 08:31:34 PM Epoch:[175/200] | Train Loss: 0.0669 | top1: 0.9924 | top5: 1.0000
+11/02 08:31:35 PM Top1 Accuracy is : 0.6644580960273743
+11/02 08:31:51 PM Epoch:[176/200] | Train Loss: 0.0656 | top1: 0.9928 | top5: 1.0000
+11/02 08:31:52 PM Top1 Accuracy is : 0.6643592119216919
+11/02 08:32:08 PM Epoch:[177/200] | Train Loss: 0.0633 | top1: 0.9934 | top5: 0.9999
+11/02 08:32:10 PM Top1 Accuracy is : 0.665842592716217
+11/02 08:32:26 PM Epoch:[178/200] | Train Loss: 0.0644 | top1: 0.9930 | top5: 1.0000
+11/02 08:32:27 PM Top1 Accuracy is : 0.6651503443717957
+11/02 08:32:43 PM Epoch:[179/200] | Train Loss: 0.0633 | top1: 0.9934 | top5: 1.0000
+11/02 08:32:44 PM Top1 Accuracy is : 0.6671282052993774
+11/02 08:33:00 PM Epoch:[180/200] | Train Loss: 0.0621 | top1: 0.9939 | top5: 1.0000
+11/02 08:33:01 PM Top1 Accuracy is : 0.6662381291389465
+11/02 08:33:17 PM Epoch:[181/200] | Train Loss: 0.0610 | top1: 0.9941 | top5: 1.0000
+11/02 08:33:18 PM Top1 Accuracy is : 0.6669303774833679
+11/02 08:33:34 PM Epoch:[182/200] | Train Loss: 0.0606 | top1: 0.9939 | top5: 1.0000
+11/02 08:33:36 PM Top1 Accuracy is : 0.6673259735107422
+11/02 08:33:52 PM Epoch:[183/200] | Train Loss: 0.0607 | top1: 0.9939 | top5: 1.0000
+11/02 08:33:53 PM Top1 Accuracy is : 0.6653481125831604
+11/02 08:34:08 PM Epoch:[184/200] | Train Loss: 0.0592 | top1: 0.9942 | top5: 1.0000
+11/02 08:34:09 PM Top1 Accuracy is : 0.6647547483444214
+11/02 08:34:25 PM Epoch:[185/200] | Train Loss: 0.0596 | top1: 0.9940 | top5: 1.0000
+11/02 08:34:27 PM Top1 Accuracy is : 0.6696004867553711
+11/02 08:34:43 PM Epoch:[186/200] | Train Loss: 0.0585 | top1: 0.9942 | top5: 1.0000
+11/02 08:34:44 PM Top1 Accuracy is : 0.6668314933776855
+11/02 08:35:00 PM Epoch:[187/200] | Train Loss: 0.0588 | top1: 0.9947 | top5: 0.9999
+11/02 08:35:01 PM Top1 Accuracy is : 0.666435956954956
+11/02 08:35:17 PM Epoch:[188/200] | Train Loss: 0.0579 | top1: 0.9947 | top5: 1.0000
+11/02 08:35:18 PM Top1 Accuracy is : 0.6668314933776855
+11/02 08:35:34 PM Epoch:[189/200] | Train Loss: 0.0571 | top1: 0.9949 | top5: 1.0000
+11/02 08:35:35 PM Top1 Accuracy is : 0.6649525761604309
+11/02 08:35:51 PM Epoch:[190/200] | Train Loss: 0.0567 | top1: 0.9946 | top5: 1.0000
+11/02 08:35:52 PM Top1 Accuracy is : 0.6670292615890503
+11/02 08:36:08 PM Epoch:[191/200] | Train Loss: 0.0556 | top1: 0.9955 | top5: 1.0000
+11/02 08:36:10 PM Top1 Accuracy is : 0.6659414768218994
+11/02 08:36:26 PM Epoch:[192/200] | Train Loss: 0.0556 | top1: 0.9956 | top5: 1.0000
+11/02 08:36:27 PM Top1 Accuracy is : 0.6641613841056824
+11/02 08:36:43 PM Epoch:[193/200] | Train Loss: 0.0556 | top1: 0.9953 | top5: 1.0000
+11/02 08:36:44 PM Top1 Accuracy is : 0.6675237417221069
+11/02 08:37:00 PM Epoch:[194/200] | Train Loss: 0.0570 | top1: 0.9948 | top5: 1.0000
+11/02 08:37:01 PM Top1 Accuracy is : 0.6666337251663208
+11/02 08:37:17 PM Epoch:[195/200] | Train Loss: 0.0566 | top1: 0.9949 | top5: 1.0000
+11/02 08:37:18 PM Top1 Accuracy is : 0.6654469966888428
+11/02 08:37:34 PM Epoch:[196/200] | Train Loss: 0.0559 | top1: 0.9952 | top5: 1.0000
+11/02 08:37:36 PM Top1 Accuracy is : 0.6661392450332642
+11/02 08:37:52 PM Epoch:[197/200] | Train Loss: 0.0557 | top1: 0.9951 | top5: 1.0000
+11/02 08:37:53 PM Top1 Accuracy is : 0.6677215099334717
+11/02 08:38:09 PM Epoch:[198/200] | Train Loss: 0.0556 | top1: 0.9955 | top5: 1.0000
+11/02 08:38:10 PM Top1 Accuracy is : 0.6672270894050598
+11/02 08:38:26 PM Epoch:[199/200] | Train Loss: 0.0547 | top1: 0.9952 | top5: 1.0000
+11/02 08:38:27 PM Top1 Accuracy is : 0.6662381291389465
+11/02 08:38:43 PM Epoch:[200/200] | Train Loss: 0.0553 | top1: 0.9954 | top5: 1.0000
+11/02 08:38:45 PM Top1 Accuracy is : 0.6666337251663208
+11/02 08:38:45 PM Best Top1 : 0.6696004867553711
+----------------------------------------------------------------
+        Layer (type)               Output Shape         Param #
+================================================================
+            Conv2d-1            [1, 12, 18, 18]             336
+       BatchNorm2d-2            [1, 12, 18, 18]              24
+              ReLU-3            [1, 12, 18, 18]               0
+         FirstUnit-4            [1, 12, 18, 18]               0
+            Conv2d-5             [1, 6, 18, 18]              72
+       BatchNorm2d-6             [1, 6, 18, 18]              12
+              ReLU-7             [1, 6, 18, 18]               0
+            Conv2d-8             [1, 6, 18, 18]              54
+            Conv2d-9            [1, 12, 18, 18]              72
+        GroupConv-10            [1, 12, 18, 18]               0
+      BatchNorm2d-11            [1, 12, 18, 18]              24
+             ReLU-12            [1, 24, 18, 18]               0
+         ConvUnit-13            [1, 24, 18, 18]               0
+           Conv2d-14            [1, 12, 18, 18]             288
+      BatchNorm2d-15            [1, 12, 18, 18]              24
+             ReLU-16            [1, 12, 18, 18]               0
+           Conv2d-17            [1, 12, 18, 18]             108
+           Conv2d-18             [1, 8, 18, 18]              32
+           Conv2d-19             [1, 8, 18, 18]              32
+           Conv2d-20             [1, 8, 18, 18]              32
+        GroupConv-21            [1, 24, 18, 18]               0
+      BatchNorm2d-22            [1, 24, 18, 18]              48
+             ReLU-23            [1, 24, 18, 18]               0
+         ConvUnit-24            [1, 24, 18, 18]               0
+           Conv2d-25            [1, 12, 18, 18]             288
+      BatchNorm2d-26            [1, 12, 18, 18]              24
+             ReLU-27            [1, 12, 18, 18]               0
+           Conv2d-28            [1, 12, 18, 18]             108
+           Conv2d-29             [1, 8, 18, 18]              32
+           Conv2d-30             [1, 8, 18, 18]              32
+           Conv2d-31             [1, 8, 18, 18]              32
+        GroupConv-32            [1, 24, 18, 18]               0
+      BatchNorm2d-33            [1, 24, 18, 18]              48
+             ReLU-34            [1, 48, 18, 18]               0
+         ConvUnit-35            [1, 48, 18, 18]               0
+           Conv2d-36            [1, 24, 18, 18]           1,152
+      BatchNorm2d-37            [1, 24, 18, 18]              48
+             ReLU-38            [1, 24, 18, 18]               0
+           Conv2d-39            [1, 24, 18, 18]             216
+           Conv2d-40            [1, 16, 18, 18]             128
+           Conv2d-41            [1, 16, 18, 18]             128
+           Conv2d-42            [1, 16, 18, 18]             128
+        GroupConv-43            [1, 48, 18, 18]               0
+      BatchNorm2d-44            [1, 48, 18, 18]              96
+             ReLU-45            [1, 48, 18, 18]               0
+         ConvUnit-46            [1, 48, 18, 18]               0
+           Conv2d-47            [1, 24, 18, 18]           1,152
+      BatchNorm2d-48            [1, 24, 18, 18]              48
+             ReLU-49            [1, 24, 18, 18]               0
+           Conv2d-50            [1, 24, 18, 18]             216
+           Conv2d-51            [1, 24, 18, 18]             288
+           Conv2d-52            [1, 24, 18, 18]             288
+        GroupConv-53            [1, 48, 18, 18]               0
+      BatchNorm2d-54            [1, 48, 18, 18]              96
+             ReLU-55            [1, 96, 18, 18]               0
+         ConvUnit-56            [1, 96, 18, 18]               0
+           Conv2d-57            [1, 48, 18, 18]           4,608
+      BatchNorm2d-58            [1, 48, 18, 18]              96
+             ReLU-59            [1, 48, 18, 18]               0
+           Conv2d-60            [1, 48, 18, 18]             432
+           Conv2d-61            [1, 48, 18, 18]           1,152
+           Conv2d-62            [1, 48, 18, 18]           1,152
+        GroupConv-63            [1, 96, 18, 18]               0
+      BatchNorm2d-64            [1, 96, 18, 18]             192
+             ReLU-65            [1, 96, 18, 18]               0
+         ConvUnit-66            [1, 96, 18, 18]               0
+           Conv2d-67            [1, 48, 18, 18]           4,608
+      BatchNorm2d-68            [1, 48, 18, 18]              96
+             ReLU-69            [1, 48, 18, 18]               0
+           Conv2d-70            [1, 48, 18, 18]             432
+           Conv2d-71            [1, 48, 18, 18]           1,152
+           Conv2d-72            [1, 48, 18, 18]           1,152
+        GroupConv-73            [1, 96, 18, 18]               0
+      BatchNorm2d-74            [1, 96, 18, 18]             192
+             ReLU-75           [1, 192, 18, 18]               0
+         ConvUnit-76           [1, 192, 18, 18]               0
+           Conv2d-77            [1, 96, 18, 18]          18,432
+      BatchNorm2d-78            [1, 96, 18, 18]             192
+             ReLU-79            [1, 96, 18, 18]               0
+           Conv2d-80            [1, 96, 18, 18]             864
+           Conv2d-81            [1, 64, 18, 18]           2,048
+           Conv2d-82            [1, 64, 18, 18]           2,048
+           Conv2d-83            [1, 64, 18, 18]           2,048
+        GroupConv-84           [1, 192, 18, 18]               0
+      BatchNorm2d-85           [1, 192, 18, 18]             384
+             ReLU-86           [1, 192, 18, 18]               0
+         ConvUnit-87           [1, 192, 18, 18]               0
+           Conv2d-88            [1, 96, 18, 18]          18,432
+      BatchNorm2d-89            [1, 96, 18, 18]             192
+             ReLU-90            [1, 96, 18, 18]               0
+           Conv2d-91            [1, 96, 18, 18]             864
+           Conv2d-92            [1, 48, 18, 18]           1,152
+           Conv2d-93            [1, 48, 18, 18]           1,152
+           Conv2d-94            [1, 48, 18, 18]           1,152
+           Conv2d-95            [1, 48, 18, 18]           1,152
+        GroupConv-96           [1, 192, 18, 18]               0
+      BatchNorm2d-97           [1, 192, 18, 18]             384
+             ReLU-98           [1, 384, 18, 18]               0
+         ConvUnit-99           [1, 384, 18, 18]               0
+          Conv2d-100           [1, 192, 18, 18]          73,728
+     BatchNorm2d-101           [1, 192, 18, 18]             384
+            ReLU-102           [1, 192, 18, 18]               0
+          Conv2d-103           [1, 192, 18, 18]           1,728
+          Conv2d-104            [1, 96, 18, 18]           4,608
+          Conv2d-105            [1, 96, 18, 18]           4,608
+          Conv2d-106            [1, 96, 18, 18]           4,608
+          Conv2d-107            [1, 96, 18, 18]           4,608
+       GroupConv-108           [1, 384, 18, 18]               0
+     BatchNorm2d-109           [1, 384, 18, 18]             768
+            ReLU-110           [1, 384, 18, 18]               0
+        ConvUnit-111           [1, 384, 18, 18]               0
+         Flatten-112                   [1, 384]               0
+          Linear-113                   [1, 100]          38,500
+        LastUnit-114                   [1, 100]               0
+================================================================
+Total params: 205,006
+Trainable params: 205,006
+Non-trainable params: 0
+----------------------------------------------------------------
+Input size (MB): 0.01
+Forward/backward pass size (MB): 21.27
+Params size (MB): 0.78
+Estimated Total Size (MB): 22.07
+----------------------------------------------------------------
+Count Operations in random tensor
+/home/cal-06/Desktop/test/caunas.py:169: TracerWarning: torch.tensor results are registered as constants in the trace. You can safely ignore this warning if you use this function to create tensors out of constant variables that would be the same every time you call this function. In any other case, this might cause the trace to be incorrect.
+  shape = torch.prod(torch.tensor(x.shape[1:])).item()
+/home/cal-06/Desktop/test/caunas.py:169: TracerWarning: Converting a tensor to a Python integer might cause the trace to be incorrect. We can't record the data flow of Python values, so this value will be treated as a constant in the future. This means that the trace might not generalize to other inputs!
+  shape = torch.prod(torch.tensor(x.shape[1:])).item()
+/home/cal-06/Desktop/test/caunas.py:169: TracerWarning: Converting a tensor to a Python number might cause the trace to be incorrect. We can't record the data flow of Python values, so this value will be treated as a constant in the future. This means that the trace might not generalize to other inputs!
+  shape = torch.prod(torch.tensor(x.shape[1:])).item()
+Operation                                                             OPS        
+--------------------------------------------------------------------  ---------  
+Sequential/FirstUnit[0]/Conv2d[conv]/onnx::Conv                       108864     
+Sequential/FirstUnit[0]/BatchNorm2d[norm]/onnx::BatchNormalization    7776       
+Sequential/FirstUnit[0]/ReLU[relu]/onnx::Relu                         7776       
+Sequential/ConvUnit[1]/Conv2d[conv1x1]/onnx::Conv                     23328      
+Sequential/ConvUnit[1]/BatchNorm2d[norm1]/onnx::BatchNormalization    3888       
+Sequential/ConvUnit[1]/ReLU[relu]/onnx::Relu                          3888       
+Sequential/ConvUnit[1]/GroupConv[group_conv]/onnx::Conv               17496      
+Sequential/ConvUnit[1]/GroupConv[group_conv]/Conv2d/onnx::Conv        23328      
+Sequential/ConvUnit[1]/BatchNorm2d[norm2]/onnx::BatchNormalization    7776       
+Sequential/ConvUnit[1]/ReLU[relu]/onnx::Relu                          15552      
+Sequential/ConvUnit[2]/Conv2d[conv1x1]/onnx::Conv                     93312      
+Sequential/ConvUnit[2]/BatchNorm2d[norm1]/onnx::BatchNormalization    7776       
+Sequential/ConvUnit[2]/ReLU[relu]/onnx::Relu                          7776       
+Sequential/ConvUnit[2]/GroupConv[group_conv]/onnx::Conv               34992      
+Sequential/ConvUnit[2]/GroupConv[group_conv]/Conv2d/onnx::Conv        10368      
+Sequential/ConvUnit[2]/GroupConv[group_conv]/Conv2d/onnx::Conv        10368      
+Sequential/ConvUnit[2]/GroupConv[group_conv]/Conv2d/onnx::Conv        10368      
+Sequential/ConvUnit[2]/BatchNorm2d[norm2]/onnx::BatchNormalization    15552      
+Sequential/ConvUnit[2]/onnx::Add                                      7776       
+Sequential/ConvUnit[2]/ReLU[relu]/onnx::Relu                          15552      
+Sequential/ConvUnit[3]/Conv2d[conv1x1]/onnx::Conv                     93312      
+Sequential/ConvUnit[3]/BatchNorm2d[norm1]/onnx::BatchNormalization    7776       
+Sequential/ConvUnit[3]/ReLU[relu]/onnx::Relu                          7776       
+Sequential/ConvUnit[3]/GroupConv[group_conv]/onnx::Conv               34992      
+Sequential/ConvUnit[3]/GroupConv[group_conv]/Conv2d/onnx::Conv        10368      
+Sequential/ConvUnit[3]/GroupConv[group_conv]/Conv2d/onnx::Conv        10368      
+Sequential/ConvUnit[3]/GroupConv[group_conv]/Conv2d/onnx::Conv        10368      
+Sequential/ConvUnit[3]/BatchNorm2d[norm2]/onnx::BatchNormalization    15552      
+Sequential/ConvUnit[3]/ReLU[relu]/onnx::Relu                          31104      
+Sequential/ConvUnit[4]/Conv2d[conv1x1]/onnx::Conv                     373248     
+Sequential/ConvUnit[4]/BatchNorm2d[norm1]/onnx::BatchNormalization    15552      
+Sequential/ConvUnit[4]/ReLU[relu]/onnx::Relu                          15552      
+Sequential/ConvUnit[4]/GroupConv[group_conv]/onnx::Conv               69984      
+Sequential/ConvUnit[4]/GroupConv[group_conv]/Conv2d/onnx::Conv        41472      
+Sequential/ConvUnit[4]/GroupConv[group_conv]/Conv2d/onnx::Conv        41472      
+Sequential/ConvUnit[4]/GroupConv[group_conv]/Conv2d/onnx::Conv        41472      
+Sequential/ConvUnit[4]/BatchNorm2d[norm2]/onnx::BatchNormalization    31104      
+Sequential/ConvUnit[4]/onnx::Add                                      15552      
+Sequential/ConvUnit[4]/ReLU[relu]/onnx::Relu                          31104      
+Sequential/ConvUnit[5]/Conv2d[conv1x1]/onnx::Conv                     373248     
+Sequential/ConvUnit[5]/BatchNorm2d[norm1]/onnx::BatchNormalization    15552      
+Sequential/ConvUnit[5]/ReLU[relu]/onnx::Relu                          15552      
+Sequential/ConvUnit[5]/GroupConv[group_conv]/onnx::Conv               69984      
+Sequential/ConvUnit[5]/GroupConv[group_conv]/Conv2d/onnx::Conv        93312      
+Sequential/ConvUnit[5]/GroupConv[group_conv]/Conv2d/onnx::Conv        93312      
+Sequential/ConvUnit[5]/BatchNorm2d[norm2]/onnx::BatchNormalization    31104      
+Sequential/ConvUnit[5]/ReLU[relu]/onnx::Relu                          62208      
+Sequential/ConvUnit[6]/Conv2d[conv1x1]/onnx::Conv                     1492992    
+Sequential/ConvUnit[6]/BatchNorm2d[norm1]/onnx::BatchNormalization    31104      
+Sequential/ConvUnit[6]/ReLU[relu]/onnx::Relu                          31104      
+Sequential/ConvUnit[6]/GroupConv[group_conv]/onnx::Conv               139968     
+Sequential/ConvUnit[6]/GroupConv[group_conv]/Conv2d/onnx::Conv        373248     
+Sequential/ConvUnit[6]/GroupConv[group_conv]/Conv2d/onnx::Conv        373248     
+Sequential/ConvUnit[6]/BatchNorm2d[norm2]/onnx::BatchNormalization    62208      
+Sequential/ConvUnit[6]/onnx::Add                                      31104      
+Sequential/ConvUnit[6]/ReLU[relu]/onnx::Relu                          62208      
+Sequential/ConvUnit[7]/Conv2d[conv1x1]/onnx::Conv                     1492992    
+Sequential/ConvUnit[7]/BatchNorm2d[norm1]/onnx::BatchNormalization    31104      
+Sequential/ConvUnit[7]/ReLU[relu]/onnx::Relu                          31104      
+Sequential/ConvUnit[7]/GroupConv[group_conv]/onnx::Conv               139968     
+Sequential/ConvUnit[7]/GroupConv[group_conv]/Conv2d/onnx::Conv        373248     
+Sequential/ConvUnit[7]/GroupConv[group_conv]/Conv2d/onnx::Conv        373248     
+Sequential/ConvUnit[7]/BatchNorm2d[norm2]/onnx::BatchNormalization    62208      
+Sequential/ConvUnit[7]/ReLU[relu]/onnx::Relu                          124416     
+Sequential/ConvUnit[8]/Conv2d[conv1x1]/onnx::Conv                     5971968    
+Sequential/ConvUnit[8]/BatchNorm2d[norm1]/onnx::BatchNormalization    62208      
+Sequential/ConvUnit[8]/ReLU[relu]/onnx::Relu                          62208      
+Sequential/ConvUnit[8]/GroupConv[group_conv]/onnx::Conv               279936     
+Sequential/ConvUnit[8]/GroupConv[group_conv]/Conv2d/onnx::Conv        663552     
+Sequential/ConvUnit[8]/GroupConv[group_conv]/Conv2d/onnx::Conv        663552     
+Sequential/ConvUnit[8]/GroupConv[group_conv]/Conv2d/onnx::Conv        663552     
+Sequential/ConvUnit[8]/BatchNorm2d[norm2]/onnx::BatchNormalization    124416     
+Sequential/ConvUnit[8]/onnx::Add                                      62208      
+Sequential/ConvUnit[8]/ReLU[relu]/onnx::Relu                          124416     
+Sequential/ConvUnit[9]/Conv2d[conv1x1]/onnx::Conv                     5971968    
+Sequential/ConvUnit[9]/BatchNorm2d[norm1]/onnx::BatchNormalization    62208      
+Sequential/ConvUnit[9]/ReLU[relu]/onnx::Relu                          62208      
+Sequential/ConvUnit[9]/GroupConv[group_conv]/onnx::Conv               279936     
+Sequential/ConvUnit[9]/GroupConv[group_conv]/Conv2d/onnx::Conv        373248     
+Sequential/ConvUnit[9]/GroupConv[group_conv]/Conv2d/onnx::Conv        373248     
+Sequential/ConvUnit[9]/GroupConv[group_conv]/Conv2d/onnx::Conv        373248     
+Sequential/ConvUnit[9]/GroupConv[group_conv]/Conv2d/onnx::Conv        373248     
+Sequential/ConvUnit[9]/BatchNorm2d[norm2]/onnx::BatchNormalization    124416     
+Sequential/ConvUnit[9]/ReLU[relu]/onnx::Relu                          248832     
+Sequential/ConvUnit[10]/Conv2d[conv1x1]/onnx::Conv                    23887872   
+Sequential/ConvUnit[10]/BatchNorm2d[norm1]/onnx::BatchNormalization   124416     
+Sequential/ConvUnit[10]/ReLU[relu]/onnx::Relu                         124416     
+Sequential/ConvUnit[10]/GroupConv[group_conv]/onnx::Conv              559872     
+Sequential/ConvUnit[10]/GroupConv[group_conv]/Conv2d/onnx::Conv       1492992    
+Sequential/ConvUnit[10]/GroupConv[group_conv]/Conv2d/onnx::Conv       1492992    
+Sequential/ConvUnit[10]/GroupConv[group_conv]/Conv2d/onnx::Conv       1492992    
+Sequential/ConvUnit[10]/GroupConv[group_conv]/Conv2d/onnx::Conv       1492992    
+Sequential/ConvUnit[10]/BatchNorm2d[norm2]/onnx::BatchNormalization   248832     
+Sequential/ConvUnit[10]/onnx::Add                                     124416     
+Sequential/ConvUnit[10]/ReLU[relu]/onnx::Relu                         248832     
+Sequential/LastUnit[11]/onnx::GlobalAveragePool                       124416     
+Sequential/LastUnit[11]/Linear[fc]/onnx::Gemm                         38400      
+-------------------------------------------------------------------   --------   
+Input size: (1, 3, 32, 32)
+55,685,400 FLOPs or approx. 0.06 GFLOPs
+Average cuda inference time : 0.004
+Average cuda inference time : 0.004
+Average cpu inference time : 0.006
+Average cpu inference time : 0.006
