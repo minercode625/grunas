@@ -189,4 +189,4 @@ def test_step(epoch, model, loader):
 
 
 if __name__ == "__main__":
-    sample_architecture_from_the_supernet(num_epoch=100)
+    sample_architecture_from_the_supernet(num_epoch=200)

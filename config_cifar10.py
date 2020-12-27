@@ -22,8 +22,8 @@ CONFIG_SUPERNET = {
     },
     'optimizer' : {
         # SGD parameters for w
-        'w_lr' : 0.05,
-        'w_momentum' : 0.9,
+        'w_lr' : 0.08,
+        'w_momentum' : 0.95,
         'w_weight_decay' : 1e-4,
         # Adam parameters for thetas
         'thetas_lr' : 0.01,
@@ -44,7 +44,7 @@ CONFIG_SUPERNET = {
         'init_temperature' : 5.0,
         'exp_anneal_rate' : np.exp(-0.045),
         # first, last config
-        'last_feature_size' : 512,
+        'last_feature_size' : 64,
         'first_inchannel' : 3,
         'first_outchannel' : CONFIG_LAYER[0][0],
         'last_inchannel' : CONFIG_LAYER[-1][0],
